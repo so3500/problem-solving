@@ -10,29 +10,23 @@ public class boj_1395 {
     private static int N, M;
     private static int start, end, H, numOfNode, command;
     private static int[] S, tree;
-    private static File f = new File("input.txt");
-    private static Scanner s;
-//    private static Scanner s = new Scanner(System.in);
+//    private static File f = new File("input.txt");
+//    private static Scanner s;
+    private static Scanner s = new Scanner(System.in);
 
     private static void init(){
-        try {
-            s = new Scanner(f);
-        } catch (Exception e){
-            System.out.println(e);
-        }
+//        try {
+//            s = new Scanner(f);
+//        } catch (Exception e){
+//            System.out.println(e);
+//        }
         N = s.nextInt();
         M = s.nextInt();
-        H = (int) Math.ceil(baseLog(N, 2));
-        numOfNode = (int) Math.pow(2, H+1);
-
-//        System.out.println(N + " " + H + " " +numOfNode);
-
+//      tree 개수: H = 밑2인 logN, treeSize = 2^(H+1) - 1
+        numOfNode = 1 << ((int) Math.ceil(Math.log(N) / Math.log(2)) + 1);
+//      System.out.println(N + " " + H + " " +numOfNode);
         S = new int[N + 1];
         tree = new int[numOfNode];
-    }
-
-    private static double baseLog(double x, double base){
-        return Math.log10(x) / Math.log10(base);
     }
 
     private static void input(){
@@ -41,20 +35,25 @@ public class boj_1395 {
         end = s.nextInt();
     }
 
-    private static void convertSwitch(){
-        for(int i = start; i <= end; i++){
-            if (S[i] == 1) S[i] = 0;
-            else S[i] = 1;
-        }
-    }
-
-    private static void update(int[] tree, int node, int start, int end, int index, int diff){
-        if (index < start || index > end) return;
-        tree[node] = tree[node] + diff;
+    private static int update(int[] tree, int node, int start, int end, int index){
+        int ret = 0;
+        if (index < start || index > end) return 0;
         if (start != end){
-            update(tree, node*2, start, (start+end)/2, index, diff);
-            update(tree, node*2 + 1, (start+end)/2 + 1, end, index, diff);
+            ret = (update(tree, node*2, start, (start+end)/2, index) +
+            update(tree, node*2 + 1, (start+end)/2 + 1, end, index));
+            tree[node] += ret;
         }
+        if (start == end){
+            if (tree[node] == 1){
+                tree[node] = 0;
+                ret = -1;
+            }
+            else {
+                tree[node] = 1;
+                ret = 1;
+            }
+        }
+        return ret;
     }
 
     private static int sum(int[] tree, int node, int start, int end, int left, int right){
@@ -76,12 +75,8 @@ public class boj_1395 {
             switch (command){
                 case 0:
                     // 스위치 반전
-                    convertSwitch();
                     for (int index = start; index <= end; index++){
-                        if (S[index] == 1)
-                            update(tree, 1, 1, N, index, 1);
-                        else
-                            update(tree, 1, 1, N, index, -1);
+                        update(tree, 1, 1, N, index);
                     }
                     break;
                 case 1:
