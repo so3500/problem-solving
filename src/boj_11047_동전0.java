@@ -1,5 +1,6 @@
 import java.util.Scanner;
-import java.io.File;;
+import java.io.File;
+import java.util.Stack;;
 
 public class boj_11047_동전0 {
 
@@ -14,6 +15,7 @@ public class boj_11047_동전0 {
         return cnt;
     }
 
+    Stack<Integer> d = new Stack<Integer>();
     public static void main(String args[]) throws Exception{
 //        File f = new File("input.txt");
 //        Scanner scanner = new Scanner(f);
