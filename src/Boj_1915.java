@@ -35,7 +35,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 import java.io.File;
 
-public class Boj_1975 {
+public class Boj_1915 {
 
     private static int getMin(int a, int b, int c){
         return Integer.min(Integer.min(a, b), Integer.min(b, c));
