@@ -2,7 +2,7 @@
 //
 import java.util.Scanner;
 
-public class boj_2839 {
+public class Boj_2839 {
     public static void main(String args[]){
         Scanner s = new Scanner(System.in);
         int N = s.nextInt();

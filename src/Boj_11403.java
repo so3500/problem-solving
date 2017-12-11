@@ -7,7 +7,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 import java.io.File;
 
-public class boj_11403_경로찾기 {
+public class Boj_11403 {
 
 //    private static Scanner scanner;
 

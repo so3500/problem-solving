@@ -2,7 +2,7 @@
 // 벌집
 import java.util.Scanner;
 
-public class boj_2292 {
+public class Boj_2292 {
 
     public static void main(String args[]){
         Scanner s = new Scanner(System.in);

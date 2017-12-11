@@ -1,8 +1,10 @@
+// 퇴사
+
 import java.util.Arrays;
 import java.util.Scanner;
 import java.io.File;
 
-public class boj_14501_퇴사 {
+public class Boj_14501 {
 //    private static Scanner scanner;
 
 //    private static int getMax(int[][] table, int[] cache, int start){

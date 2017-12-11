@@ -1,8 +1,10 @@
+// 베르트랑 공준
+
 import java.util.Arrays;
 import java.util.Scanner;
 import java.io.File;
 
-public class boj_2217_로프 {
+public class Boj_2217 {
 
     private static int solve(int[] rope, int N){
         int maxWeight = Integer.MIN_VALUE;

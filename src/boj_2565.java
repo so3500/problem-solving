@@ -2,7 +2,7 @@ import java.util.*;
 import java.io.File;
 import java.io.IOException;
 
-public class boj_2565{
+public class Boj_2565 {
     /*
     * 전깃줄
     * */

@@ -6,7 +6,7 @@
 import java.util.Scanner;
 import java.io.File;
 
-public class boj_1395 {
+public class Boj_1395 {
     private static int N, M;
     private static int start, end, H, numOfNode, command;
     private static int[] S, tree;

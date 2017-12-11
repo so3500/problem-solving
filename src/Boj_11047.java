@@ -1,8 +1,10 @@
+// 동전0
+
 import java.util.Scanner;
 import java.io.File;
 import java.util.Stack;;
 
-public class boj_11047_동전0 {
+public class Boj_11047 {
 
     private static int solve(int[] coin, int N, int K){
         int cnt = 0;

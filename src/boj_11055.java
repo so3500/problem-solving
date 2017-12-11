@@ -1,7 +1,7 @@
-import java.util.*;
+import java.util.Scanner;
 
-public class boj_11055 {
-    /*
+public class Boj_11055 {
+        /*
     * 최대 부분 증가 수열
     *
     * */

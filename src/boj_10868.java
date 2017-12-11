@@ -2,7 +2,7 @@ import java.io.File;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class boj_10868 {
+public class Boj_10868 {
 
     private static int N, M;
     private static int left, right, H, numOfNode, valOfNode;

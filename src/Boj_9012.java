@@ -1,7 +1,7 @@
-/*
-* https://www.acmicpc.net/problem/9012
-* Stack
-* */
+
+//https://www.acmicpc.net/problem/9012
+//Stack
+// 괄호
 
 import java.io.IOException;
 import java.util.EmptyStackException;
@@ -9,7 +9,7 @@ import java.util.Scanner;
 import java.io.File;
 import java.util.Stack;
 
-public class boj_9012_괄호 {
+public class Boj_9012 {
 
     public enum State { YES, NO }
 
