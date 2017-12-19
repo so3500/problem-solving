@@ -75,6 +75,7 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 - 개구리 점프 [link](https://www.codeground.org/practice) [java](https://github.com/so3500/problem-solving/blob/master/src/codeground/FrogJump.java) 
 - 숫자 골라내기 [link](https://www.codeground.org/practice) [java](https://github.com/so3500/problem-solving/blob/master/src/codeground/PickNumber.java)
 - 시험공부 [link](https://www.codeground.org/practice) [java](https://github.com/so3500/problem-solving/blob/master/src/codeground/TestStudy.java)
+- 좋은 수 [link](https://www.codeground.org/practice) [java](https://github.com/so3500/problem-solving/blob/master/src/codeground/GoodNumber.java) ㅁ
 
 #### ETC
 
