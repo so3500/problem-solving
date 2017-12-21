@@ -76,8 +76,8 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 - 숫자 골라내기 [link](https://www.codeground.org/practice) [java](https://github.com/so3500/problem-solving/blob/master/src/codeground/PickNumber.java)
 - 시험공부 [link](https://www.codeground.org/practice) [java](https://github.com/so3500/problem-solving/blob/master/src/codeground/TestStudy.java)
 - 좋은 수 [link](https://www.codeground.org/practice) [java](https://github.com/so3500/problem-solving/blob/master/src/codeground/GoodNumber.java) ㅁ
-- 프로그래밍 경진대회 [link](https://www.codeground.org/practice) [java](https://github.com/so3500/problem-solving/blob/master/src/codeground/ProgrammingCompetition.java)
-- 방속의 거울 [link](https://www.codeground.org/practice) [java](https://github.com/so3500/problem-solving/blob/master/src/codeground/MirrorInRoom.java)
+- 프로그래밍 경진대회 [link](https://www.codeground.org/practice) [java](https://github.com/so3500/problem-solving/blob/master/src/codeground/ProgrammingCompetition.java) O
+- 방속의 거울 [link](https://www.codeground.org/practice) [java](https://github.com/so3500/problem-solving/blob/master/src/codeground/MirrorInRoom.java) O
 
 #### ETC
 
