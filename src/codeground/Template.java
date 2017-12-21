@@ -1,7 +1,7 @@
 //package codeground;
 
 /*
-* 문제: 1 / SCPC 연습문제 숫자 골라내기
+* 문제: 64 / SCPC 1회 예선 / 방속의 거울 / 0.34129
 * link: https://www.codeground.org/practice
 * 알고리즘: 구현
 * 풀이방법:
