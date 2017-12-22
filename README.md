@@ -35,7 +35,7 @@ problem solving with JAVA, Python etc.
 ### Dynamic Promramming(동적 계획법)
 
 - 1915 가장 큰 정사각형 [link](https://www.acmicpc.net/problem/1915) [code](https://github.com/so3500/problem-solving/blob/master/src/Boj_1915.java) O
-- ​
+- ​프리랜서 [link](https://www.codeground.org/practice) [java](https://github.com/so3500/problem-solving/blob/master/src/codeground/Freelancer.java) O
 
 LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 
