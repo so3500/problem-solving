@@ -78,6 +78,8 @@ class DiscountCoupon {
             M = Integer.parseInt(st.nextToken());
             K = Integer.parseInt(st.nextToken());
             couponCount = 0;
+
+            // init G
             G = new int[N + 1][N + 1];
             for (i = 0; i <= N; i++) {
                 Arrays.fill(G[i], 10000 + 1);
@@ -92,6 +94,7 @@ class DiscountCoupon {
                 G[B][A] = C;
             }
 
+            // Floyd-Warshall
             for (mid = 1; mid <= N; mid++) {
                 for (start = 1; start <= N; start++) {
                     for (end = 1; end <= N; end++) {
@@ -99,7 +102,7 @@ class DiscountCoupon {
                     }
                 }
             }
-
+            // get coupon count
             st = new StringTokenizer(br.readLine());
             P = Integer.parseInt(st.nextToken());
             for (i = 1; i <= P; i++) {
