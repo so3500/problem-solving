@@ -85,4 +85,5 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 
 - 14501 퇴사 [link](https://www.acmicpc.net/problem/14501) [code](https://github.com/so3500/problem-solving/blob/master/src/Boj_14501.java)
 - ​
+- 
 
