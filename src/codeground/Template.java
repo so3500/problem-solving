@@ -36,15 +36,15 @@
 //    static int Answer;
 //
 //    public static void main(String args[]) throws Exception	{
-//        Scanner sc = new Scanner(System.in);
-//        Scanner sc = new Scanner(new FileInputStream("input.txt"));
-//        BufferedReader br = new BufferedReader(new FileReader("input.txt")); // BufferedReader for file
-//        BufferedReader br = new BufferedReader(new InputStreamReader(System.in)); // BufferedReader for keyboard
+////        Scanner sc = new Scanner(System.in);
+////        Scanner sc = new Scanner(new FileInputStream("input.txt"));
+////        BufferedReader br = new BufferedReader(new FileReader("input.txt")); // BufferedReader for file
+////        BufferedReader br = new BufferedReader(new InputStreamReader(System.in)); // BufferedReader for keyboard
+////        int T = sc.nextInt();
+////       int T = Integer.parseInt(br.readLine()); // br
+////        StringTokenizer st = new StringTokenizer(br.readLine()); // line 기준 입력
+////        int a = Integer.parseInt(st.nextToken()); // 공백 기준 입력 e.g. 1 2 3 4 5 받을 때
 //
-//        int T = sc.nextInt();
-//        int T = Integer.parseInt(br.readLine()); // br
-//        StringTokenizer st = new StringTokenizer(br.readLine()); // line 기준 입력
-//        Integer.parseInt(st.nextToken()); // 공백 기준 입력 e.g. 1 2 3 4 5 받을 때
 //        for(int test_case = 0; test_case < T; test_case++) {
 //
 //            // Answer = 0;
