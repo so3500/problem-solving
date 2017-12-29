@@ -1,4 +1,4 @@
-
+package boj;
 //https://www.acmicpc.net/problem/9012
 //Stack
 // 괄호

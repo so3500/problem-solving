@@ -1,4 +1,4 @@
-// 동전0
+package boj;// 동전0
 
 import java.util.Scanner;
 import java.io.File;

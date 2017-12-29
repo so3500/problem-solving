@@ -1,4 +1,4 @@
-// https://www.acmicpc.net/problem/2839
+package boj;// https://www.acmicpc.net/problem/2839
 //
 import java.util.Scanner;
 

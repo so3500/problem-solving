@@ -1,4 +1,4 @@
-/*
+package boj;/*
 * 스위치
 * 세그먼트 트리?
 * https://www.acmicpc.net/problem/1395

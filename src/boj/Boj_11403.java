@@ -1,4 +1,4 @@
-/*
+package boj;/*
 * https://www.acmicpc.net/problem/11403
 * 경로 찾기: 가중치 없는 방향 그래프 G가 주어졌을 때, 모든 정점(i, j)에 대해서, i에서 j로 가는 경로 여부 구하기
 * */

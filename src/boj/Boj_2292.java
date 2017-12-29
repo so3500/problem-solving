@@ -1,4 +1,4 @@
-// https://www.acmicpc.net/problem/2292
+package boj;// https://www.acmicpc.net/problem/2292
 // 벌집
 import java.util.Scanner;
 

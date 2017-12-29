@@ -1,4 +1,4 @@
-// 베르트랑 공준
+package boj;// 베르트랑 공준
 
 import java.util.Arrays;
 import java.util.Scanner;

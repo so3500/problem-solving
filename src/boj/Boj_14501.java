@@ -1,4 +1,4 @@
-// 퇴사
+package boj;// 퇴사
 
 import java.util.Arrays;
 import java.util.Scanner;
