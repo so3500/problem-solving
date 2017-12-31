@@ -1,3 +1,56 @@
+
+/* 영역구하기
+* https://www.acmicpc.net/problem/2583
+* 알고리즘: DFS
+* 풀이방법:
+*   matrix[row][col]에 직사각형 정보를 저장한다. true: 직사각형 칠함.
+*   DFS 알고리즘(해당 cell 의 Up, Right, Down, Left 가 false 여부인지 살핌)을 위해 위아래, 오른쪽왼쪽 한줄 씩 더 추가
+*
+* 의사코드:
+*   static area <- 0
+*   input M, N, K
+*   init matrix[M+2][N+2] with false
+*   Outside rectangle of matrix <- false
+*   for i:0 to K-1
+*       input x1, y1, x2, y2 and plus 1
+*       for row: y1 to y1-1
+*           for col: x1 to x1-1
+*               matrix[row][col] <- true
+*
+*    for row: 1 to M
+*       for col: 1 to N
+*           if matrix[row][col] not true
+*               area <- 1
+*               DFS(matrix, row, col)
+*
+*   // 정보 출력
+*
+*   DFS(matrix, row, col)
+*       matrix[row][col] <- true
+*       if up of matrix[row][col] not true
+*           ret <- ret + 1
+*           DFS(matrix, row-1, col)
+*       if right of matrix[row][col] not true
+*            ret <- ret + 1
+*            DFS(matrix, row, col+1)
+*       if down of matrix[row][col] not true
+*            ret <- ret + 1
+*            DFS(matrix, row+1, col)
+*       if left of matrix[row][col] not true
+*            ret <- ret + 1
+*            DFS(matrix, row, col-1)
+*
+* 시간복잡도(Time Complexity)
+*   row M, col N 인 2차원 배열 초기화
+*   최악의 경우 DFS 에서 M*N 개의 cell 탐색
+*   O(MN)
+*
+* 공간복잡도(Space Complexity)
+*   row M, col N 인 2차원 배열 초기화
+*   O(MN)
+*
+* */
+
 package boj;
 
 import java.io.File;
@@ -6,6 +59,7 @@ import java.io.FileNotFoundException;
 import java.util.Arrays;
 import java.util.Scanner;
 
+//public class Main {
 public class GetArea_2583 {
     //    static int numberOfArea;
     static int ret = 0;
