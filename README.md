@@ -41,31 +41,31 @@ problem solving with JAVA, Python etc.
 LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 
 * 11055 최대 부분 증가 수열 [link](https://www.acmicpc.net/problem/11055) [code](https://github.com/so3500/problem-solving/blob/master/src/boj_11055.java) 
-* 2565 전깃줄 [link](https://www.acmicpc.net/problem/2656) [code](https://github.com/so3500/problem-solving/blob/master/src/boj_2565.java)
+* 2565 전깃줄 [link](https://www.acmicpc.net/problem/2656) [code](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_2565.java)
 * ​
 
 
 ### Segment Tree
 
-* 10868 최소값 [link](https://www.acmicpc.net/problem/10868) [code](https://github.com/so3500/problem-solving/blob/master/src/boj_10868.java)
-* 1395 스위치 [link](https://www.acmicpc.net/problem/1395) [code](https://github.com/so3500/problem-solving/blob/master/src/boj_1395.java) X
+* 10868 최소값 [link](https://www.acmicpc.net/problem/10868) [code](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_10868.java)
+* 1395 스위치 [link](https://www.acmicpc.net/problem/1395) [code](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_1395.java) X
 * ​
 
 
 ### Greedy
 
-- 11047 동전 [link](https://www.acmicpc.net/problem/11047) [code](https://github.com/so3500/problem-solving/blob/master/src/Boj_11047.java)
+- 11047 동전 [link](https://www.acmicpc.net/problem/11047) [code](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_11047.java)
 - ​
 
 ### Graph(BFS, DFS)
 
-- 11403 경로찾기 [link](https://www.acmicpc.net/problem/11403) [code](https://github.com/so3500/problem-solving/blob/master/src/Boj_11403.java) 
+- 11403 경로찾기 [link](https://www.acmicpc.net/problem/11403) [code](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_11403.java) 
 - ​
 
 ### Stack, Queue ..
 
-- 9012 괄호 [link](https://www.acmicpc.net/problem/9012) [code](https://github.com/so3500/problem-solving/blob/master/src/Boj_9012.java)
-- ​
+- 9012 괄호 [link](https://www.acmicpc.net/problem/9012) [code](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_9012.java)
+- 2583 영역 구하기 [link](https://www.acmicpc.net/problem/2583) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/GetArea_2583.java)
 
 ### Implementation, Math
 

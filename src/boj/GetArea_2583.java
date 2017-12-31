@@ -10,6 +10,16 @@ public class GetArea_2583 {
     //    static int numberOfArea;
     static int ret = 0;
 
+    private static void printMatrix(boolean[][] matrix) {
+        int row, col;
+        for (row=0; row<matrix.length; row++){
+            for (col=0; col<matrix[0].length; col++) {
+                System.out.print(matrix[row][col] + "\t");
+            }
+            System.out.println();
+        }
+    }
+
     public static void main(String[] args) throws FileNotFoundException {
 //        Scanner sc = new Scanner(System.in);
         Scanner sc = new Scanner(new File("input.txt"));
@@ -30,6 +40,7 @@ public class GetArea_2583 {
         for (row = 0; row <= M + 1; row++) {
             Arrays.fill(matrix[row], false);
         }
+//        printMatrix(matrix);
         // 바깥 네 변에 대해서 true(visited)로 초기화
         for (col = 0; col <= N + 1; col++) {
             matrix[0][col] = true;
@@ -39,25 +50,28 @@ public class GetArea_2583 {
             matrix[row][0] = true;
             matrix[row][N + 1] = true;
         }
+//        printMatrix(matrix);
+//        System.out.println();
 
         // (x1, y1) 부터 (x2, y2)까지 true(visited)로 초기화, 실제 연산 순서는 (x1, y2) to (x2, y1)
         for (i = 0; i < K; i++) {
-            x1 = sc.nextInt();
-            y1 = sc.nextInt();
-            x2 = sc.nextInt();
-            y2 = sc.nextInt();
-            for (row = y2; row <= y1; row++) {
-                for (col = x1; col <= x2; col++) {
+            x1 = sc.nextInt() + 1;
+            y1 = sc.nextInt() + 1;
+            x2 = sc.nextInt() + 1;
+            y2 = sc.nextInt() + 1;
+            for (row = y1; row < y2; row++) {
+                for (col = x1; col < x2; col++) {
                     matrix[row][col] = true;
                 }
             }
         }
+//        printMatrix(matrix);
 
         // DFS
         for (row = 1; row <= M; row++) {
             for (col = 1; col <= N; col++) {
-                ret = 0;
                 if (!matrix[row][col]) {
+                    ret = 1;
                     DFS(matrix, row, col);
                     area[numberOfArea] = ret;
                     numberOfArea += 1;
@@ -65,13 +79,13 @@ public class GetArea_2583 {
             }
         }
 
-        Arrays.sort(area, 0, numberOfArea - 1);
+        Arrays.sort(area, 0, numberOfArea);
 
         // 결과 출력
         StringBuffer sb = new StringBuffer();
         sb.append(numberOfArea + "\n");
 //        System.out.print(numberOfArea);
-        for (i = numberOfArea - 1; i >= 0; i--) {
+        for (i = 0; i <= numberOfArea - 1; i++) {
             sb.append(area[i] + " ");
         }
 
@@ -83,13 +97,16 @@ public class GetArea_2583 {
         if (!matrix[row - 1][col]) {
             ret += 1;
             DFS(matrix, row - 1, col);
-        } else if (!matrix[row][col + 1]) {
+        }
+        if (!matrix[row][col + 1]) {
             ret += 1;
             DFS(matrix, row, col + 1);
-        } else if (!matrix[row + 1][col]) {
+        }
+        if (!matrix[row + 1][col]) {
             ret += 1;
             DFS(matrix, row + 1, col);
-        } else if (!matrix[row][col - 1]) {
+        }
+        if (!matrix[row][col - 1]) {
             ret += 1;
             DFS(matrix, row, col - 1);
         }
