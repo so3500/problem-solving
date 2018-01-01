@@ -34,13 +34,14 @@ problem solving with JAVA, Python etc.
 
 ### Dynamic Promramming(동적 계획법)
 
-- 1915 가장 큰 정사각형 [link](https://www.acmicpc.net/problem/1915) [code](https://github.com/so3500/problem-solving/blob/master/src/Boj_1915.java) O
+- 1915 가장 큰 정사각형 [link](https://www.acmicpc.net/problem/1915) [code](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_1915.java) O
 - 프리랜서 [link](https://www.codeground.org/practice) [java](https://github.com/so3500/problem-solving/blob/master/src/codeground/Freelancer.java) O
 - 할인권(Floyd-warshall) [link](https://www.codeground.org/practice) [java](https://github.com/so3500/problem-solving/blob/master/src/codeground/DiscountCoupon.java) O
+- 10942 펠린드롬? [link](https://www.acmicpc.net/problem/1915) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_10942.java) O
 
 LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 
-* 11055 최대 부분 증가 수열 [link](https://www.acmicpc.net/problem/11055) [code](https://github.com/so3500/problem-solving/blob/master/src/boj_11055.java) 
+* 11055 최대 부분 증가 수열 [link](https://www.acmicpc.net/problem/11055) [code](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_11055.java) 
 * 2565 전깃줄 [link](https://www.acmicpc.net/problem/2656) [code](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_2565.java)
 * ​
 
