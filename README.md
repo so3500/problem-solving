@@ -37,7 +37,7 @@ problem solving with JAVA, Python etc.
 - 1915 가장 큰 정사각형 [link](https://www.acmicpc.net/problem/1915) [code](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_1915.java) O
 - 프리랜서 [link](https://www.codeground.org/practice) [java](https://github.com/so3500/problem-solving/blob/master/src/codeground/Freelancer.java) O
 - 할인권(Floyd-warshall) [link](https://www.codeground.org/practice) [java](https://github.com/so3500/problem-solving/blob/master/src/codeground/DiscountCoupon.java) O
-- 10942 펠린드롬? [link](https://www.acmicpc.net/problem/1915) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_10942.java) O
+- 10942 펠린드롬? [link](https://www.acmicpc.net/problem/10942) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_10942.java) O
 
 LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 
@@ -62,6 +62,7 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 
 - 11403 경로찾기 [link](https://www.acmicpc.net/problem/11403) [code](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_11403.java) 
 - 2583 영역 구하기 [link](https://www.acmicpc.net/problem/2583) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/GetArea_2583.java)
+- 10970 외판원 순회2 dfs [link](https://www.acmicpc.net/problem/10971) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/SalesPersion_10971java)
 
 ### Stack, Queue ..
 
