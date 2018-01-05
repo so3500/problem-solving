@@ -38,6 +38,7 @@ problem solving with JAVA, Python etc.
 - 프리랜서 [link](https://www.codeground.org/practice) [java](https://github.com/so3500/problem-solving/blob/master/src/codeground/Freelancer.java) O
 - 할인권(Floyd-warshall) [link](https://www.codeground.org/practice) [java](https://github.com/so3500/problem-solving/blob/master/src/codeground/DiscountCoupon.java) O
 - 10942 펠린드롬? [link](https://www.acmicpc.net/problem/10942) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_10942.java) O
+- 2098 외판원 [link](https://www.acmicpc.net/problem/2098) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_2098.java) X
 
 LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 
