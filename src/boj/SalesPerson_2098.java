@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class SalesPersion_2098 {
+public class SalesPerson_2098 {
     private static int minCost;
     private static int[][] W;
     private static int[][] dp;
