@@ -1,32 +1,27 @@
-// 가장 큰 정사각형
+///*
+//* 문제: 11933 ATM / 80ms
+//* link: https://www.acmicpc.net/problem/11399
+//* 알고리즘: 구현
+//* 풀이방법:
+//*   입력받은 숫자 중 홀수 번으로 입력받은 숫자에 대한 xor 연산 결과를 출력한다.
+//*   짝수번으로 입력받은 숫자에 대해서 xor 연산을 수행 하면 해당 숫자는 상쇄되는 성질을 이용한다.
+//* 의사코드(Pseudo Code)
+//*   input T
+//*   each T
+//*       answer <- 0
+//*       input N
+//*       for i: 0 to N-1
+//*           input number
+//*           answer <- answer xor number*
+//*
+//* 시간복잡도(Time Complexity)
+//*   각 TestCase T에 대하여 N개의 숫자를 입력받고 연산을 수행하므로 O(TN)
+//*
+//* 공간복잡도(Space Complexity)
+//*   자료구조를 사용하지 않음. O(1)
+//*
+//* */
 //
-// 다이나믹 프로그래밍, 동적 계획법
-//
-//
-/*
-* 가장 큰 정사각형
-* https://www.acmicpc.net/problem/1915
-* 알고리즘: 다이나믹 프로그래밍(동적 계획법)
-* 풀이방법: matrix[row][col]은 해당 정사각형의 맨 오른쪽 아래이며 길이 정보를 저장한다.
-* 의사코드:
-*   input n, m
-*   declare matrix[n][m]
-*   for row 0 to n-1
-*       find maxValue(1) in matrix[row][0]
-*   for col 0 to m-1
-*       find maxValue(1) in matrix[0][col]
-*   for row 1 to n-1
-*       for col 1 to m-1
-*           if matrix[row][col] = 1
-*               matrix[row][col] <- min(matrix[row-1, col-1], matrix[row, col-1], matrix[row-1, col]) + 1
-*               answer <- max(answer, matrix[row][col])
-*
-*   return answer^2
-*
-* 시간복잡도(Time Complexity)
-*
-* 공간복잡도(Space Complexity)
-* */
 
 //import java.util.Arrays;
 //import java.util.Scanner;
