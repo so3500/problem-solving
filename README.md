@@ -91,6 +91,7 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 #### ETC
 
 - 14501 퇴사 [link](https://www.acmicpc.net/problem/14501) [code](https://github.com/so3500/problem-solving/blob/master/src/Boj_14501.java)
-- ​
+- 2805 나무 자르기 binarySearch [link](https://www.acmicpc.net/problem/2805) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/CutTree_2805.java) [참고](https://math.stackexchange.com/questions/401937/how-is-nn-2n-4-1-equal-to-2n-1-using-the-formula-for-geometric-series)
 - 
+
 
