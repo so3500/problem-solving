@@ -66,6 +66,7 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 - 2583 영역 구하기 [link](https://www.acmicpc.net/problem/2583) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/GetArea_2583.java) [java2](https://github.com/so3500/problem-solving/blob/master/src/boj/GetArea2_2583.java)
 - 10970 외판원 순회2 dfs [link](https://www.acmicpc.net/problem/10971) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/SalesPerson_10971.java)
 - 1199 오일러 회로 dfs [link](https://www.acmicpc.net/problem/1199) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/EulerCircuit_1199.java)
+- 2931 가스관 dfs [link](https://www.acmicpc.net/problem/2931) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/GasPipe_2931.java)
 
 ### Stack, Queue ..
 
