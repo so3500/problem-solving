@@ -87,8 +87,9 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 - 방속의 거울 [link](https://www.codeground.org/practice) [java](https://github.com/so3500/problem-solving/blob/master/src/codeground/MirrorInRoom.java) O
 - 하노이 타워 [link](https://www.codeground.org/practice) [java](https://github.com/so3500/problem-solving/blob/master/src/codeground/HanoiTop.java) 
 - 안녕 [link](https://www.codeground.org/practice) [java](https://github.com/so3500/problem-solving/blob/master/src/codeground/Hello.java) 
-- 11399 ATM [link](https://www.acmicpc.net/problem/11399) [code](https://github.com/so3500/problem-solving/blob/master/src/boj/ATM_11399.java)
-- ​
+- 11399 ATM [link](https://www.acmicpc.net/problem/11399) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/ATM_11399.java)
+- 2935 소음 문자열 연산 [link](https://www.acmicpc.net/problem/2935) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Noise_2935.java)
+- 2851 수퍼마리오 [link](https://www.acmicpc.net/problem/2851) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/SuperMario_2851.java)
 
 #### 분할정복
 
