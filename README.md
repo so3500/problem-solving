@@ -71,7 +71,7 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 ### Stack, Queue ..
 
 - 9012 괄호 [link](https://www.acmicpc.net/problem/9012) [code](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_9012.java)
-- ​
+- 1715 카드 정렬하기, 우선순위 큐 [link](https://www.acmicpc.net/problem/1715) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/SortCard_1715.java)
 
 ### Implementation, Math
 
