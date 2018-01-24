@@ -44,7 +44,7 @@ problem solving with JAVA, Python etc.
 LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 
 * 11055 최대 부분 증가 수열 [link](https://www.acmicpc.net/problem/11055) [code](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_11055.java) 
-* 2565 전깃줄 [link](https://www.acmicpc.net/problem/2656) [code](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_2565.java)
+* 2565 전깃줄 [link](https://www.acmicpc.net/problem/2565) [code](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_2565.java)
 * ​
 
 
@@ -64,9 +64,10 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 
 - 11403 경로찾기 [link](https://www.acmicpc.net/problem/11403) [code](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_11403.java) 
 - 2583 영역 구하기 [link](https://www.acmicpc.net/problem/2583) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/GetArea_2583.java) [java2](https://github.com/so3500/problem-solving/blob/master/src/boj/GetArea2_2583.java)
-- 10970 외판원 순회2 dfs [link](https://www.acmicpc.net/problem/10971) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/SalesPerson_10971.java)
-- 1199 오일러 회로 dfs [link](https://www.acmicpc.net/problem/1199) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/EulerCircuit_1199.java)
-- 2931 가스관 dfs [link](https://www.acmicpc.net/problem/2931) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/GasPipe_2931.java)
+- 10970 외판원 순회2 DFS [link](https://www.acmicpc.net/problem/10971) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/SalesPerson_10971.java)
+- 1199 오일러 회로 DFS [link](https://www.acmicpc.net/problem/1199) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/EulerCircuit_1199.java)
+- 2931 가스관 DFS [link](https://www.acmicpc.net/problem/2931) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/GasPipe_2931.java)
+- 13913 숨바꼭질4 BFS [link](https://www.acmicpc.net/problem/13913) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/HideAndSeek_13913.java)
 
 ### Stack, Queue ..
 
@@ -90,6 +91,7 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 - 11399 ATM [link](https://www.acmicpc.net/problem/11399) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/ATM_11399.java)
 - 2935 소음 문자열 연산 [link](https://www.acmicpc.net/problem/2935) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Noise_2935.java)
 - 2851 수퍼마리오 [link](https://www.acmicpc.net/problem/2851) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/SuperMario_2851.java)
+- 14612 김식당 [link](https://www.acmicpc.net/problem/14612) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/KimRestaurant_14612.java)
 
 #### 분할정복
 
