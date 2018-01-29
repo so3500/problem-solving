@@ -40,6 +40,7 @@ problem solving with JAVA, Python etc.
 - 10942 펠린드롬? [link](https://www.acmicpc.net/problem/10942) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_10942.java) O
 - 2098 외판원 [link](https://www.acmicpc.net/problem/2098) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/SalesPerson_2098.java) X
 - 1890 점프 [link](https://www.acmicpc.net/problem/1890) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Jump_1890.java)
+- 2579 계단오르기 [link](https://www.acmicpc.net/problem/2579) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Stairs_2579.java)
 
 LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 
@@ -92,6 +93,7 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 - 2935 소음 문자열 연산 [link](https://www.acmicpc.net/problem/2935) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Noise_2935.java)
 - 2851 수퍼마리오 [link](https://www.acmicpc.net/problem/2851) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/SuperMario_2851.java)
 - 14612 김식당 [link](https://www.acmicpc.net/problem/14612) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/KimRestaurant_14612.java)
+- 1168 조세퍼스2  [link](https://www.acmicpc.net/problem/1168) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Josephus_1168.java)
 
 #### 분할정복
 
