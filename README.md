@@ -40,7 +40,7 @@ problem solving with JAVA, Python etc.
 - 10942 펠린드롬? [link](https://www.acmicpc.net/problem/10942) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_10942.java) O
 - 2098 외판원 [link](https://www.acmicpc.net/problem/2098) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/SalesPerson_2098.java) X
 - 1890 점프 [link](https://www.acmicpc.net/problem/1890) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Jump_1890.java)
-- 2579 계단오르기 [link](https://www.acmicpc.net/problem/2579) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Stairs_2579.java)
+- 2579 계단오르기 [link](https://www.acmicpc.net/problem/2579) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Stairs_2579.java) [slide](https://www.slideshare.net/SungOnLee/2579-87188918)
 
 LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 
@@ -93,7 +93,7 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 - 2935 소음 문자열 연산 [link](https://www.acmicpc.net/problem/2935) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Noise_2935.java)
 - 2851 수퍼마리오 [link](https://www.acmicpc.net/problem/2851) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/SuperMario_2851.java)
 - 14612 김식당 [link](https://www.acmicpc.net/problem/14612) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/KimRestaurant_14612.java)
-- 1168 조세퍼스2  [link](https://www.acmicpc.net/problem/1168) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Josephus_1168.java)
+- 1168 조세퍼스2  [link](https://www.acmicpc.net/problem/1168) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Josephus_1168.java) [slide](https://www.slideshare.net/SungOnLee/1168-2)
 
 #### 분할정복
 
@@ -102,7 +102,7 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 
 #### ETC
 
-- 14501 퇴사 [link](https://www.acmicpc.net/problem/14501) [java1](https://github.com/so3500/problem-solving/blob/master/src/Boj_14501.java) [java2](https://github.com/so3500/problem-solving/blob/master/src/Resignation_14501.java)
+- 14501 퇴사 [link](https://www.acmicpc.net/problem/14501) [java1](https://github.com/so3500/problem-solving/blob/master/src/Boj_14501.java) [java2](https://github.com/so3500/problem-solving/blob/master/src/Resignation_14501.java) [slide](https://www.slideshare.net/SungOnLee/14501)
 - 2805 나무 자르기 binarySearch [link](https://www.acmicpc.net/problem/2805) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/CutTree_2805.java) [시간복잡도 계산 참고](https://math.stackexchange.com/questions/401937/how-is-nn-2n-4-1-equal-to-2n-1-using-the-formula-for-geometric-series)
 - 
 
