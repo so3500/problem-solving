@@ -34,10 +34,10 @@ problem solving with JAVA, Python etc.
 
 ### Dynamic Promramming(동적 계획법)
 
-- 1915 가장 큰 정사각형 [link](https://www.acmicpc.net/problem/1915) [code](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_1915.java) O
-- 프리랜서 [link](https://www.codeground.org/practice) [java](https://github.com/so3500/problem-solving/blob/master/src/codeground/Freelancer.java) O
-- 할인권(Floyd-warshall) [link](https://www.codeground.org/practice) [java](https://github.com/so3500/problem-solving/blob/master/src/codeground/DiscountCoupon.java) O
-- 10942 펠린드롬? [link](https://www.acmicpc.net/problem/10942) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_10942.java) O
+- 1915 가장 큰 정사각형 [link](https://www.acmicpc.net/problem/1915) [code](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_1915.java)
+- 프리랜서 [link](https://www.codeground.org/practice) [java](https://github.com/so3500/problem-solving/blob/master/src/codeground/Freelancer.java)
+- 할인권(Floyd-warshall) [link](https://www.codeground.org/practice) [java](https://github.com/so3500/problem-solving/blob/master/src/codeground/DiscountCoupon.java)
+- 10942 펠린드롬? [link](https://www.acmicpc.net/problem/10942) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_10942.java)
 - 2098 외판원 [link](https://www.acmicpc.net/problem/2098) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/SalesPerson_2098.java) X
 - 1890 점프 [link](https://www.acmicpc.net/problem/1890) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Jump_1890.java)
 - 2579 계단오르기 [link](https://www.acmicpc.net/problem/2579) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Stairs_2579.java) [slide](https://www.slideshare.net/SungOnLee/2579-87188918)
@@ -85,8 +85,8 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 - 숫자 골라내기 [link](https://www.codeground.org/practice) [java](https://github.com/so3500/problem-solving/blob/master/src/codeground/PickNumber.java)
 - 시험공부 [link](https://www.codeground.org/practice) [java](https://github.com/so3500/problem-solving/blob/master/src/codeground/TestStudy.java)
 - 좋은 수 [link](https://www.codeground.org/practice) [java](https://github.com/so3500/problem-solving/blob/master/src/codeground/GoodNumber.java) ㅁ
-- 프로그래밍 경진대회 [link](https://www.codeground.org/practice) [java](https://github.com/so3500/problem-solving/blob/master/src/codeground/ProgrammingCompetition.java) O
-- 방속의 거울 [link](https://www.codeground.org/practice) [java](https://github.com/so3500/problem-solving/blob/master/src/codeground/MirrorInRoom.java) O
+- 프로그래밍 경진대회 [link](https://www.codeground.org/practice) [java](https://github.com/so3500/problem-solving/blob/master/src/codeground/ProgrammingCompetition.java)
+- 방속의 거울 [link](https://www.codeground.org/practice) [java](https://github.com/so3500/problem-solving/blob/master/src/codeground/MirrorInRoom.java)
 - 하노이 타워 [link](https://www.codeground.org/practice) [java](https://github.com/so3500/problem-solving/blob/master/src/codeground/HanoiTop.java) 
 - 안녕 [link](https://www.codeground.org/practice) [java](https://github.com/so3500/problem-solving/blob/master/src/codeground/Hello.java) 
 - 11399 ATM [link](https://www.acmicpc.net/problem/11399) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/ATM_11399.java)
