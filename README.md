@@ -94,11 +94,16 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 - 2851 수퍼마리오 [link](https://www.acmicpc.net/problem/2851) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/SuperMario_2851.java)
 - 14612 김식당 [link](https://www.acmicpc.net/problem/14612) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/KimRestaurant_14612.java)
 - 1168 조세퍼스2  [link](https://www.acmicpc.net/problem/1168) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Josephus_1168.java) [slide](https://www.slideshare.net/SungOnLee/1168-2)
+- 14891 톱니바퀴 [link](https://www.acmicpc.net/problem/14891) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Wheel_14891.java)
 
 #### 분할정복
 
 - 2805 나무 자르기 [link](https://www.acmicpc.net/problem/1780) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/NumOfPaper_1780.java) .
 - ​
+
+####Brute-Force
+
+- 1182 부분집합의 합 [link](https://www.acmicpc.net/problem/1182) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/SumOfSubset_1182.java)
 
 #### ETC
 
