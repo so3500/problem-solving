@@ -61,7 +61,7 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 - 11047 동전 [link](https://www.acmicpc.net/problem/11047) [code](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_11047.java)
 - ​
 
-### Graph(BFS, DFS)
+### BFS, DFS
 
 - 11403 경로찾기 [link](https://www.acmicpc.net/problem/11403) [code](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_11403.java) 
 - 2583 영역 구하기 [link](https://www.acmicpc.net/problem/2583) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/GetArea_2583.java) [java2](https://github.com/so3500/problem-solving/blob/master/src/boj/GetArea2_2583.java)
@@ -94,7 +94,9 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 - 2851 수퍼마리오 [link](https://www.acmicpc.net/problem/2851) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/SuperMario_2851.java)
 - 14612 김식당 [link](https://www.acmicpc.net/problem/14612) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/KimRestaurant_14612.java)
 - 1168 조세퍼스2  [link](https://www.acmicpc.net/problem/1168) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Josephus_1168.java) [slide](https://www.slideshare.net/SungOnLee/1168-2)
-- 14891 톱니바퀴 [link](https://www.acmicpc.net/problem/14891) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Wheel_14891.java)
+- 14889 스타트와링크 [link](https://www.acmicpc.net/problem/14889) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/StartLink_14889.java)
+- 14890 경사로 [link](https://www.acmicpc.net/problem/14890) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Slope_14890.java)
+- 1476 날짜계산 [link](https://www.acmicpc.net/problem/1476) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/DateCalculation_1476.java)
 
 #### 분할정복
 
