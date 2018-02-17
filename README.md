@@ -59,7 +59,7 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 ### Greedy
 
 - 11047 동전 [link](https://www.acmicpc.net/problem/11047) [code](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_11047.java)
-- ​
+- 2437 저울 [link](https://www.acmicpc.net/problem/2437) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Scale_2437.java)
 
 ### BFS, DFS
 
