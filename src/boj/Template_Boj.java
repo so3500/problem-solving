@@ -1,24 +1,22 @@
 /*
-* 문제: 11933 ATM / 80ms
-* link: https://www.acmicpc.net/problem/11399
-* 알고리즘: 구현
+* 문제: 7562 나이트의 이동 / 80 ms
+* link: https://www.acmicpc.net/problem/11933
+* 알고리즘: BFS
 * 풀이방법:
-*   입력받은 숫자 중 홀수 번으로 입력받은 숫자에 대한 xor 연산 결과를 출력한다.
-*   짝수번으로 입력받은 숫자에 대해서 xor 연산을 수행 하면 해당 숫자는 상쇄되는 성질을 이용한다.
+*   큐에 시작 점 객체 (row, col, cnt:1) 추가
+*   bfs 함수에서 큐에 하나도 남지 않을 때 까지 '시작 점에서 갈 수 있는 점' 추가
+*       '시작 점에서 갈 수 있는 점'의 조건: 배열 범위 내, 이미 지나가지 않은 점
+*       새 점 추가 시 이전 점 cnt+1 값을 초기값으로 줌.
+*
 * 의사코드(Pseudo Code)
-*   input T
-*   each T
-*       answer <- 0
-*       input N
-*       for i: 0 to N-1
-*           input number
-*           answer <- answer xor number*
 *
 * 시간복잡도(Time Complexity)
-*   각 TestCase T에 대하여 N개의 숫자를 입력받고 연산을 수행하므로 O(TN)
+*   입력 N일 때 2차원 배열을 모두 탐색하는 경우
+*   O(N^2)
 *
 * 공간복잡도(Space Complexity)
-*   자료구조를 사용하지 않음. O(1)
+*   입력 N일 때 2차원 배열 사용
+*   O(N^2)
 *
 * */
 

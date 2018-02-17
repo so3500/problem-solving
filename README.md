@@ -69,6 +69,7 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 - 1199 오일러 회로 DFS [link](https://www.acmicpc.net/problem/1199) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/EulerCircuit_1199.java)
 - 2931 가스관 DFS [link](https://www.acmicpc.net/problem/2931) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/GasPipe_2931.java)
 - 13913 숨바꼭질4 BFS [link](https://www.acmicpc.net/problem/13913) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/HideAndSeek_13913.java)
+- 7562 나이트의 이동 BFS [link](https://www.acmicpc.net/problem/7562) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Knight_7562.java)
 
 ### Stack, Queue ..
 
