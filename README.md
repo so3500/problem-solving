@@ -70,6 +70,7 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 - 2931 가스관 DFS [link](https://www.acmicpc.net/problem/2931) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/GasPipe_2931.java)
 - 13913 숨바꼭질4 BFS [link](https://www.acmicpc.net/problem/13913) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/HideAndSeek_13913.java)
 - 7562 나이트의 이동 BFS [link](https://www.acmicpc.net/problem/7562) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Knight_7562.java)
+- 2589 보물섬 BFS [link](https://www.acmicpc.net/problem/2589) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Knight_7562.java)
 
 ### Stack, Queue ..
 
@@ -107,6 +108,7 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 ####Brute-Force
 
 - 1182 부분집합의 합 [link](https://www.acmicpc.net/problem/1182) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/SumOfSubset_1182.java)
+- 3002 수들의 합2 tow-pointer [link](https://www.acmicpc.net/problem/2003) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/SumOfNum2_2003.java)
 
 #### ETC
 
