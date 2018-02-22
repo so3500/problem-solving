@@ -3,7 +3,9 @@ problem solving with JAVA, Python etc.
 
 [acmicpc.net](https://www.acmicpc.net/problem/)   /  [so3500](https://www.acmicpc.net/user/so3500)
 
-[codeground](https://www.codeground.org/)   
+[codeground](https://www.codeground.org/)
+
+[SW expert Academy](https://www.swexpertacademy.com/main/main.do)
 
 [programmers](https://programmers.co.kr/)
 
@@ -71,6 +73,7 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 - 13913 숨바꼭질4 BFS [link](https://www.acmicpc.net/problem/13913) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/HideAndSeek_13913.java)
 - 7562 나이트의 이동 BFS [link](https://www.acmicpc.net/problem/7562) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Knight_7562.java)
 - 2589 보물섬 BFS [link](https://www.acmicpc.net/problem/2589) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Knight_7562.java)
+- 14503 로봇청소기 BFS [link](https://www.acmicpc.net/problem/14503) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_14503.java)
 
 ### Stack, Queue ..
 
@@ -100,15 +103,16 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 - 14890 경사로 [link](https://www.acmicpc.net/problem/14890) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Slope_14890.java)
 - 1476 날짜계산 [link](https://www.acmicpc.net/problem/1476) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/DateCalculation_1476.java)
 
-#### 분할정복
+#### (분할정복)
 
 - 2805 나무 자르기 [link](https://www.acmicpc.net/problem/1780) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/NumOfPaper_1780.java) .
 - ​
 
-####Brute-Force
+####Brute-Force (완전탐색)
 
 - 1182 부분집합의 합 [link](https://www.acmicpc.net/problem/1182) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/SumOfSubset_1182.java)
 - 3002 수들의 합2 tow-pointer [link](https://www.acmicpc.net/problem/2003) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/SumOfNum2_2003.java)
+- 14888 연산자 끼워넣기 [link](https://www.acmicpc.net/problem/14888) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_14888.java)
 
 #### ETC
 
@@ -117,3 +121,186 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 - 
 
 
+
+
+### TODO
+
+#### 0. 다이나믹 프로그래밍 1
+
+- [1로 만들기](https://www.acmicpc.net/problem/1463)
+- [2×n 타일링](https://www.acmicpc.net/problem/11726)
+- [2×n 타일링 2](https://www.acmicpc.net/problem/11727)
+- [1, 2, 3 더하기](https://www.acmicpc.net/problem/9095)
+- [붕어빵 판매하기](https://www.acmicpc.net/problem/11052)
+- [쉬운 계단 수](https://www.acmicpc.net/problem/10844)
+- [오르막 수](https://www.acmicpc.net/problem/11057)
+- [이친수](https://www.acmicpc.net/problem/2193)
+- [스티커](https://www.acmicpc.net/problem/9465)
+- [포도주 시식](https://www.acmicpc.net/problem/2156)
+- [가장 긴 증가하는 부분 수열](https://www.acmicpc.net/problem/11053)
+- [가장 큰 증가 부분 수열](https://www.acmicpc.net/problem/11055)
+- [가장 긴 감소하는 부분 수열](https://www.acmicpc.net/problem/11722)
+- [가장 긴 바이토닉 부분 수열](https://www.acmicpc.net/problem/11054)
+- [연속합](https://www.acmicpc.net/problem/1912)
+- [계단 오르기](https://www.acmicpc.net/problem/2579)
+- [제곱수의 합](https://www.acmicpc.net/problem/1699)
+- [타일 채우기](https://www.acmicpc.net/problem/2133)
+- [파도반 수열](https://www.acmicpc.net/problem/9461)
+- [합분해](https://www.acmicpc.net/problem/2225)
+- [암호코드](https://www.acmicpc.net/problem/2011)
+
+
+- [~~이동하기~~](https://www.acmicpc.net/problem/11048)
+- [~~점프~~](https://www.acmicpc.net/problem/1890)
+- [~~팰린드롬?~~](https://www.acmicpc.net/problem/10942)
+- [팰린드롬 분할](https://www.acmicpc.net/problem/1509)
+- [~~동전 1~~](https://www.acmicpc.net/problem/2293)
+- [동전 2](https://www.acmicpc.net/problem/2294)
+- [내리막 길](https://www.acmicpc.net/problem/1520)
+- [파일 합치기](https://www.acmicpc.net/problem/11066)
+- [행렬 곱셈 순서](https://www.acmicpc.net/problem/11049)
+- [구간 나누기](https://www.acmicpc.net/problem/2228)
+- [자두나무](https://www.acmicpc.net/problem/2240)
+- [고층 빌딩](https://www.acmicpc.net/problem/1328)
+- [타일 코드](https://www.acmicpc.net/problem/1720)
+- [기타리스트](https://www.acmicpc.net/problem/1495)
+- [1학년](https://www.acmicpc.net/problem/5557)
+- [올바른 괄호 문자열](https://www.acmicpc.net/problem/3012)
+- [같은 탑](https://www.acmicpc.net/problem/1126)
+
+#### 1. 수학 2
+
+- [곱셈](https://www.acmicpc.net/problem/1629)
+- [제곱 ㄴㄴ 수](https://www.acmicpc.net/problem/1016)
+- [~~행렬 덧셈~~](https://www.acmicpc.net/problem/2738)
+- [두 용액](https://www.acmicpc.net/problem/2470)
+- [행렬 제곱](https://www.acmicpc.net/problem/10830)
+- [피보나치 수](https://www.acmicpc.net/problem/2747)
+- [피보나치 수 2](https://www.acmicpc.net/problem/2748)
+- [피보나치 수 3](https://www.acmicpc.net/problem/2749)
+- [피보나치 수 6](https://www.acmicpc.net/problem/11444)
+- [피보나치 수 4](https://www.acmicpc.net/problem/10826)
+- [피보나치 수 5](https://www.acmicpc.net/problem/10870)
+- [피보나치 수의 확장](https://www.acmicpc.net/problem/1788)
+- [피사노 주기](https://www.acmicpc.net/problem/9471)
+- [피보나치 수의 합](https://www.acmicpc.net/problem/2086)
+- [피보나치 수의 제곱의 합](https://www.acmicpc.net/problem/11440)
+- [홀수번째 피보나치 수의 합](https://www.acmicpc.net/problem/11442)
+- [짝수번째 피보나치 수의 합](https://www.acmicpc.net/problem/11443)
+- [피보나치 수와 최대공약수](https://www.acmicpc.net/problem/11778)
+- [이항 계수 1](https://www.acmicpc.net/problem/11050)
+- [이항 계수 2](https://www.acmicpc.net/problem/11051)
+- [이항 계수 4](https://www.acmicpc.net/problem/11402)
+- [이항 계수 5](https://www.acmicpc.net/problem/11439)
+- [괄호](https://www.acmicpc.net/problem/10422)
+- [GCD(n, k) = 1](https://www.acmicpc.net/problem/11689)
+- [해의 개수](https://www.acmicpc.net/problem/11661)
+- [이항 계수 3](https://www.acmicpc.net/problem/11401)
+
+#### 2. 그래프 알고리즘 2
+
+- [줄 세우기](https://www.acmicpc.net/problem/2252)
+- [문제집](https://www.acmicpc.net/problem/1766)
+- [작업](https://www.acmicpc.net/problem/2056)
+- [게임 개발](https://www.acmicpc.net/problem/1516)
+- [임계경로](https://www.acmicpc.net/problem/1948)
+- [네트워크 연결](https://www.acmicpc.net/problem/1922)
+- [최소 스패닝 트리](https://www.acmicpc.net/problem/1197)
+- [타임머신](https://www.acmicpc.net/problem/11657)
+- [웜홀](https://www.acmicpc.net/problem/1865)
+- [최소비용 구하기](https://www.acmicpc.net/problem/1916)
+- [최소비용 구하기 2](https://www.acmicpc.net/problem/11779)
+- [특정한 최단 경로](https://www.acmicpc.net/problem/1504)
+- [최단경로](https://www.acmicpc.net/problem/1753)
+- [경로 찾기](https://www.acmicpc.net/problem/11403)
+- [플로이드](https://www.acmicpc.net/problem/11404)
+- [플로이드 2](https://www.acmicpc.net/problem/11780)
+- [케빈 베이컨의 6단계 법칙](https://www.acmicpc.net/problem/1389)
+- [궁금한 민호](https://www.acmicpc.net/problem/1507)
+- [운동](https://www.acmicpc.net/problem/1956)
+- [타임머신](https://www.acmicpc.net/problem/11657)
+
+#### 3. 트리 2
+
+- [LCA](https://www.acmicpc.net/problem/11437)
+- [정점들의 거리](https://www.acmicpc.net/problem/1761)
+- [LCA 2](https://www.acmicpc.net/problem/11438)
+- [도로 네트워크](https://www.acmicpc.net/problem/3176)
+- [LCA 2](https://www.acmicpc.net/problem/11438)
+
+#### 4. 구간의 최소값 구하기
+
+- [최소값과 최대값](https://www.acmicpc.net/problem/2357)
+- [최소값 찾기](https://www.acmicpc.net/problem/11003)
+
+#### 5. 구간의 합 구하기
+
+- [구간 합 구하기 4](https://www.acmicpc.net/problem/11659)
+- [나머지 합](https://www.acmicpc.net/problem/10986)
+- [구간 합 구하기 5](https://www.acmicpc.net/problem/11660)
+- [구간 합 구하기](https://www.acmicpc.net/problem/2042)
+- [구간 합 구하기 2](https://www.acmicpc.net/problem/10999)
+- [스위치](https://www.acmicpc.net/problem/1395)
+- [구간 합 구하기](https://www.acmicpc.net/problem/2042)
+- [구간 합 구하기 3](https://www.acmicpc.net/problem/11658)
+
+#### 6. 완전 탐색 0
+
+- [집합](https://www.acmicpc.net/problem/11723)
+- [다음 순열](https://www.acmicpc.net/problem/10972)
+- [이전 순열](https://www.acmicpc.net/problem/10973)
+- [모든 순열](https://www.acmicpc.net/problem/10974)
+- [순열의 순서](https://www.acmicpc.net/problem/1722)
+
+
+- [~~날짜 계산~~](https://www.acmicpc.net/problem/1476)
+- [리모컨](https://www.acmicpc.net/problem/1107)
+- [1, 2, 3 더하기](https://www.acmicpc.net/problem/9095)
+- [차이를 최대로](https://www.acmicpc.net/problem/10819)
+- [외판원 순회 2](https://www.acmicpc.net/problem/10971)
+- [로또](https://www.acmicpc.net/problem/6603)
+- [숨바꼭질](https://www.acmicpc.net/problem/1697)
+- [소수 경로](https://www.acmicpc.net/problem/1963)
+- [DSLR](https://www.acmicpc.net/problem/9019)
+- [퍼즐](https://www.acmicpc.net/problem/1525)
+- [물통](https://www.acmicpc.net/problem/2251)
+- [암호 만들기](https://www.acmicpc.net/problem/1759)
+- [N-Queen](https://www.acmicpc.net/problem/9663)
+- [스도쿠](https://www.acmicpc.net/problem/2580)
+- [알파벳](https://www.acmicpc.net/problem/1987)
+- [로또](https://www.acmicpc.net/problem/6603)
+- [부분집합의 합](https://www.acmicpc.net/problem/1182)
+- [~~수들의 합 2~~](https://www.acmicpc.net/problem/2003)
+- [~~부분합~~](https://www.acmicpc.net/problem/1806)
+- [소수의 연속합](https://www.acmicpc.net/problem/1644)
+- [알고스팟](https://www.acmicpc.net/problem/1261)
+- [부분집합의 합 2](https://www.acmicpc.net/problem/1208)
+- [합이 0인 네 정수](https://www.acmicpc.net/problem/7453)
+- [피자판매](https://www.acmicpc.net/problem/2632)
+- [두 배열의 합](https://www.acmicpc.net/problem/2143)
+
+
+
+### 모의 SW 역량 테스트
+
+[목록](https://www.swexpertacademy.com/main/userpage/code/userProblemBoxDetail.do?probBoxId=AV5Po0AqAPwDFAUq&leftPage=1&curPage=userpage&userId=SWEAC)
+
+2477.[모의 SW 역량테스트] 차량 정비소
+
+2383.[모의 SW 역량테스트] 점심 식사시간
+
+2382.[모의 SW 역량테스트] 미생물 격리
+
+2117.[모의 SW 역량테스트] 홈 방범 서비스
+
+2115.[모의 SW 역량테스트] 벌꿀채취
+
+2112.[모의 SW 역량테스트] 보호 필름
+
+2105.[모의 SW 역량테스트] 디저트 카페
+
+1953.[모의 SW 역량테스트] 탈주범 검거
+
+1952.[모의 SW 역량테스트] 수영장
+
+1949.[모의 SW 역량테스트] 등산로 조성
