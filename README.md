@@ -118,7 +118,7 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 
 - 14501 퇴사 [link](https://www.acmicpc.net/problem/14501) [java1](https://github.com/so3500/problem-solving/blob/master/src/Boj_14501.java) [java2](https://github.com/so3500/problem-solving/blob/master/src/Resignation_14501.java) [slide](https://www.slideshare.net/SungOnLee/14501)
 - 2805 나무 자르기 binarySearch [link](https://www.acmicpc.net/problem/2805) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/CutTree_2805.java) [시간복잡도 계산 참고](https://math.stackexchange.com/questions/401937/how-is-nn-2n-4-1-equal-to-2n-1-using-the-formula-for-geometric-series)
-- 
+- 11723 [집합](https://www.acmicpc.net/problem/11723) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_11723.java)
 
 
 
@@ -246,7 +246,7 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 
 #### 6. 완전 탐색 0
 
-- [집합](https://www.acmicpc.net/problem/11723)
+- [~~집합~~](https://www.acmicpc.net/problem/11723)
 - [다음 순열](https://www.acmicpc.net/problem/10972)
 - [이전 순열](https://www.acmicpc.net/problem/10973)
 - [모든 순열](https://www.acmicpc.net/problem/10974)
@@ -283,7 +283,7 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 
 ### 모의 SW 역량 테스트
 
-[목록](https://www.swexpertacademy.com/main/userpage/code/userProblemBoxDetail.do?probBoxId=AV5Po0AqAPwDFAUq&leftPage=1&curPage=userpage&userId=SWEAC)
+[목록 ](https://www.swexpertacademy.com/main/userpage/code/userProblemBoxDetail.do?probBoxId=AV5Po0AqAPwDFAUq&leftPage=1&curPage=userpage&userId=SWEAC)
 
 2477.[모의 SW 역량테스트] 차량 정비소
 
