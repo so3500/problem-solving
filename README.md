@@ -85,6 +85,7 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 - 2292 벌집 [link](https://www.acmicpc.net/problem/2292) [code](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_2292.java)
 - Pro_exPressionOfNumber 숫자의 표현 [link](https://programmers.co.kr/learn/challenge_codes/156) [code](https://github.com/so3500/problem-solving/blob/master/src/Pro_ExpressionOfNumber.java)
 - 4948 베르트랑 공준: 소수구하기(에라토스테네스의 체) [link](https://www.acmicpc.net/problem/4948) [code](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_4948.java)
+- SE-3131 [100만 이하의 모든 소수](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV_6mRsasV8DFAWS&categoryId=AV_6mRsasV8DFAWS&categoryType=CODE) [java](https://github.com/so3500/problem-solving/tree/master/src/swexpert/SE_3131.java)
 - 2839 설탕배달 [link](https://www.acmicpc.net/problem/2839) [code](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_2839.java)
 - 개구리 점프 [link](https://www.codeground.org/practice) [java](https://github.com/so3500/problem-solving/blob/master/src/codeground/FrogJump.java) 
 - 숫자 골라내기 [link](https://www.codeground.org/practice) [java](https://github.com/so3500/problem-solving/blob/master/src/codeground/PickNumber.java)
@@ -108,11 +109,12 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 - 2805 나무 자르기 [link](https://www.acmicpc.net/problem/1780) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/NumOfPaper_1780.java) .
 - ​
 
-####Brute-Force (완전탐색)
+#### Brute-Force (완전탐색)
 
 - 1182 부분집합의 합 [link](https://www.acmicpc.net/problem/1182) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/SumOfSubset_1182.java)
 - 3002 수들의 합2 tow-pointer [link](https://www.acmicpc.net/problem/2003) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/SumOfNum2_2003.java)
 - 14888 연산자 끼워넣기 [link](https://www.acmicpc.net/problem/14888) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_14888.java)
+- [10974 모든 순열](https://www.acmicpc.net/problem/10974) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_10974.java)
 
 #### ETC
 
@@ -123,7 +125,7 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 
 
 
-### TODO
+# TODO
 
 #### 0. 다이나믹 프로그래밍 1
 
@@ -249,7 +251,7 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 - [~~집합~~](https://www.acmicpc.net/problem/11723)
 - [다음 순열](https://www.acmicpc.net/problem/10972)
 - [이전 순열](https://www.acmicpc.net/problem/10973)
-- [모든 순열](https://www.acmicpc.net/problem/10974)
+- [~~모든 순열~~](https://www.acmicpc.net/problem/10974)
 - [순열의 순서](https://www.acmicpc.net/problem/1722)
 
 
