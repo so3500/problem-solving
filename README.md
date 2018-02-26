@@ -43,6 +43,7 @@ problem solving with JAVA, Python etc.
 - 2098 외판원 [link](https://www.acmicpc.net/problem/2098) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/SalesPerson_2098.java) X
 - 1890 점프 [link](https://www.acmicpc.net/problem/1890) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Jump_1890.java)
 - 2579 계단오르기 [link](https://www.acmicpc.net/problem/2579) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Stairs_2579.java) [slide](https://www.slideshare.net/SungOnLee/2579-87188918)
+- 2747 [피보나치 수](https://www.acmicpc.net/problem/2747) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_2747.java)
 
 LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 
@@ -85,7 +86,7 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 - 2292 벌집 [link](https://www.acmicpc.net/problem/2292) [code](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_2292.java)
 - Pro_exPressionOfNumber 숫자의 표현 [link](https://programmers.co.kr/learn/challenge_codes/156) [code](https://github.com/so3500/problem-solving/blob/master/src/Pro_ExpressionOfNumber.java)
 - 4948 베르트랑 공준: 소수구하기(에라토스테네스의 체) [link](https://www.acmicpc.net/problem/4948) [code](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_4948.java)
-- SE-3131 [100만 이하의 모든 소수](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV_6mRsasV8DFAWS&categoryId=AV_6mRsasV8DFAWS&categoryType=CODE) [java](https://github.com/so3500/problem-solving/tree/master/src/swexpert/SE_3131.java)
+- SE-3131 [100만 이하의 모든 소수](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV_6mRsasV8DFAWS&categoryId=AV_6mRsasV8DFAWS&categoryType=CODE) 에라토스테네스의 체 [java](https://github.com/so3500/problem-solving/tree/master/src/swexpert/SE_3131.java)
 - 2839 설탕배달 [link](https://www.acmicpc.net/problem/2839) [code](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_2839.java)
 - 개구리 점프 [link](https://www.codeground.org/practice) [java](https://github.com/so3500/problem-solving/blob/master/src/codeground/FrogJump.java) 
 - 숫자 골라내기 [link](https://www.codeground.org/practice) [java](https://github.com/so3500/problem-solving/blob/master/src/codeground/PickNumber.java)
@@ -177,7 +178,7 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 - [~~행렬 덧셈~~](https://www.acmicpc.net/problem/2738)
 - [두 용액](https://www.acmicpc.net/problem/2470)
 - [행렬 제곱](https://www.acmicpc.net/problem/10830)
-- [피보나치 수](https://www.acmicpc.net/problem/2747)
+- ~~[피보나치 수](https://www.acmicpc.net/problem/2747)~~
 - [피보나치 수 2](https://www.acmicpc.net/problem/2748)
 - [피보나치 수 3](https://www.acmicpc.net/problem/2749)
 - [피보나치 수 6](https://www.acmicpc.net/problem/11444)
