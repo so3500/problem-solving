@@ -64,7 +64,7 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 - 11047 동전 [link](https://www.acmicpc.net/problem/11047) [code](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_11047.java)
 - 2437 저울 [link](https://www.acmicpc.net/problem/2437) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Scale_2437.java)
 
-### BFS, DFS
+### BFS, DFS, Graph
 
 - 11403 경로찾기 [link](https://www.acmicpc.net/problem/11403) [code](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_11403.java) 
 - 2583 영역 구하기 [link](https://www.acmicpc.net/problem/2583) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/GetArea_2583.java) [java2](https://github.com/so3500/problem-solving/blob/master/src/boj/GetArea2_2583.java)
@@ -75,6 +75,7 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 - 7562 나이트의 이동 BFS [link](https://www.acmicpc.net/problem/7562) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Knight_7562.java)
 - 2589 보물섬 BFS [link](https://www.acmicpc.net/problem/2589) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Knight_7562.java)
 - 14503 로봇청소기 BFS [link](https://www.acmicpc.net/problem/14503) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_14503.java)
+- 9205 [맥주마시면서걸어가기](https://www.acmicpc.net/problem/9205) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_9205.java)
 
 ### Stack, Queue ..
 
