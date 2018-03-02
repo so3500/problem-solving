@@ -44,6 +44,7 @@ problem solving with JAVA, Python etc.
 - 1890 점프 [link](https://www.acmicpc.net/problem/1890) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Jump_1890.java)
 - 2579 계단오르기 [link](https://www.acmicpc.net/problem/2579) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Stairs_2579.java) [slide](https://www.slideshare.net/SungOnLee/2579-87188918)
 - 2747 [피보나치 수](https://www.acmicpc.net/problem/2747) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_2747.java)
+- 2662 [기업투자](https://www.acmicpc.net/problem/2662) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_2662.java) X
 
 LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 
