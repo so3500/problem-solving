@@ -40,5 +40,6 @@ public class Boj_2750 {
             bw.write(pq.poll()+"\n");
         }
         bw.flush();
+        bw.close();
     }
 }

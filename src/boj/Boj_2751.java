@@ -1,6 +1,6 @@
 /*
  * 문제: 2751 수 정렬하기2 / 2620 ms
- * link: https://www.acmicpc.net/problem/2620
+ * link: https://www.acmicpc.net/problem/2751
  * 알고리즘: 정렬
  * 풀이방법:
  *  우선순위 큐에 입력받은 숫자를 추가한다.
@@ -40,5 +40,6 @@ public class Boj_2751 {
             bw.write(pq.poll()+"\n");
         }
         bw.flush();
+        bw.close();
     }
 }

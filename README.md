@@ -107,6 +107,9 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 - 14890 경사로 [link](https://www.acmicpc.net/problem/14890) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Slope_14890.java)
 - 1476 날짜계산 [link](https://www.acmicpc.net/problem/1476) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/DateCalculation_1476.java)
 - 1026 [보물](https://www.acmicpc.net/problem/1026) PriorityQueue [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_1026.java)
+- 2750 [수 정렬하기](https://www.acmicpc.net/problem/2750) PriorityQueue [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_2750.java)
+- 2751 [수 정렬하기2](https://www.acmicpc.net/problem/2751) PriorityQueue [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_2751.java)
+- 10989 [수 정렬하기3](https://www.acmicpc.net/problem/10989) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_10989.java)
 
 #### (분할정복)
 
