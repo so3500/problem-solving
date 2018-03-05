@@ -123,12 +123,15 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 - 14888 연산자 끼워넣기 [link](https://www.acmicpc.net/problem/14888) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_14888.java)
 - [10974 모든 순열](https://www.acmicpc.net/problem/10974) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_10974.java)
 - 6603 [로또](https://www.acmicpc.net/problem/6603) bfs, dfs, broute-force, backtracking [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_6603.java)
+- 1952 [[삼성 모의 SW 역량테스트] 수영장](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PpFQaAQMDFAUq) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_1952.java)
 
 #### ETC
 
 - 14501 퇴사 [link](https://www.acmicpc.net/problem/14501) [java1](https://github.com/so3500/problem-solving/blob/master/src/Boj_14501.java) [java2](https://github.com/so3500/problem-solving/blob/master/src/Resignation_14501.java) [slide](https://www.slideshare.net/SungOnLee/14501)
 - 2805 나무 자르기 binarySearch [link](https://www.acmicpc.net/problem/2805) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/CutTree_2805.java) [시간복잡도 계산 참고](https://math.stackexchange.com/questions/401937/how-is-nn-2n-4-1-equal-to-2n-1-using-the-formula-for-geometric-series)
 - 11723 [집합](https://www.acmicpc.net/problem/11723) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_11723.java)
+
+
 
 
 
@@ -242,25 +245,25 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 
 [목록 ](https://www.swexpertacademy.com/main/userpage/code/userProblemBoxDetail.do?probBoxId=AV5Po0AqAPwDFAUq&leftPage=1&curPage=userpage&userId=SWEAC)
 
-2477.[모의 SW 역량테스트] 차량 정비소
+2477.[삼성 모의 SW 역량테스트] 차량 정비소
 
-2383.[모의 SW 역량테스트] 점심 식사시간
+2383.[삼성 모의 SW 역량테스트] 점심 식사시간
 
-2382.[모의 SW 역량테스트] 미생물 격리
+2382.[삼성 모의 SW 역량테스트] 미생물 격리
 
-2117.[모의 SW 역량테스트] 홈 방범 서비스
+2117.[삼성 모의 SW 역량테스트] 홈 방범 서비스
 
-2115.[모의 SW 역량테스트] 벌꿀채취
+2115.[삼성 모의 SW 역량테스트] 벌꿀채취
 
-2112.[모의 SW 역량테스트] 보호 필름
+2112.[삼성 모의 SW 역량테스트] 보호 필름
 
-2105.[모의 SW 역량테스트] 디저트 카페
+2105.[삼성 모의 SW 역량테스트] 디저트 카페
 
-1953.[모의 SW 역량테스트] 탈주범 검거
+1953.[삼성 모의 SW 역량테스트] 탈주범 검거
 
-1952.[모의 SW 역량테스트] 수영장
+~~1952.[삼성 모의 SW 역량테스트] 수영장~~
 
-1949.[모의 SW 역량테스트] 등산로 조성
+1949.[삼성 모의 SW 역량테스트] 등산로 조성
 
 
 
