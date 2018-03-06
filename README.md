@@ -57,7 +57,7 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 
 * 10868 최소값 [link](https://www.acmicpc.net/problem/10868) [code](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_10868.java)
 * 1395 스위치 [link](https://www.acmicpc.net/problem/1395) [code](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_1395.java) X
-* ​
+* 14338 [수열과 쿼리17](https://www.acmicpc.net/problem/14438) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_14438.java)
 
 
 ### Greedy
@@ -123,7 +123,7 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 - 14888 연산자 끼워넣기 [link](https://www.acmicpc.net/problem/14888) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_14888.java)
 - [10974 모든 순열](https://www.acmicpc.net/problem/10974) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_10974.java)
 - 6603 [로또](https://www.acmicpc.net/problem/6603) bfs, dfs, broute-force, backtracking [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_6603.java)
-- 1952 [[삼성 모의 SW 역량테스트] 수영장](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PpFQaAQMDFAUq) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_1952.java)
+- 1952 [[삼성 모의 SW 역량테스트] 수영장](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PpFQaAQMDFAUq) dfs [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_1952.java)
 
 #### ETC
 
