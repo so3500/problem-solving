@@ -123,7 +123,7 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 - [10974 모든 순열](https://www.acmicpc.net/problem/10974) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_10974.java)
 - 6603 [로또](https://www.acmicpc.net/problem/6603) bfs, dfs, broute-force, backtracking [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_6603.java)
 - 1952 [[삼성 모의 SW 역량테스트] 수영장](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PpFQaAQMDFAUq) dfs [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_1952.java)
-- 2115.[[삼성 모의 SW 역량테스트] 벌꿀채취](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5V4A46AdIDFAWu&categoryId=AV5V4A46AdIDFAWu&categoryType=CODE) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_2115.java)
+- 2115.[[삼성 모의 SW 역량테스트] 벌꿀채취](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5V4A46AdIDFAWu&categoryId=AV5V4A46AdIDFAWu&categoryType=CODE) dfs [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_2115.java)
 
 #### ETC
 
