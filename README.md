@@ -50,7 +50,7 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 
 * 11055 최대 부분 증가 수열 [link](https://www.acmicpc.net/problem/11055) [code](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_11055.java) 
 * 2565 전깃줄 [link](https://www.acmicpc.net/problem/2565) [code](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_2565.java)
-* 3307 [최장 부분 증가 수열](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWBOKg-a6l0DFAWr) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_3307.java) 
+* 3307 [최장 부분 증가 수열](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWBOKg-a6l0DFAWr) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_.java) 
 
 
 ### Segment Tree
@@ -123,6 +123,7 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 - [10974 모든 순열](https://www.acmicpc.net/problem/10974) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_10974.java)
 - 6603 [로또](https://www.acmicpc.net/problem/6603) bfs, dfs, broute-force, backtracking [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_6603.java)
 - 1952 [[삼성 모의 SW 역량테스트] 수영장](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PpFQaAQMDFAUq) dfs [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_1952.java)
+- 2115.[[삼성 모의 SW 역량테스트] 벌꿀채취](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5V4A46AdIDFAWu&categoryId=AV5V4A46AdIDFAWu&categoryType=CODE) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_2115.java)
 
 #### ETC
 
@@ -252,15 +253,11 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 
 2117.[삼성 모의 SW 역량테스트] 홈 방범 서비스
 
-2115.[삼성 모의 SW 역량테스트] 벌꿀채취
-
 2112.[삼성 모의 SW 역량테스트] 보호 필름
 
 2105.[삼성 모의 SW 역량테스트] 디저트 카페
 
 1953.[삼성 모의 SW 역량테스트] 탈주범 검거
-
-~~1952.[삼성 모의 SW 역량테스트] 수영장~~
 
 1949.[삼성 모의 SW 역량테스트] 등산로 조성
 
