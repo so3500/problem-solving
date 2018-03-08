@@ -50,7 +50,7 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 
 * 11055 최대 부분 증가 수열 [link](https://www.acmicpc.net/problem/11055) [code](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_11055.java) 
 * 2565 전깃줄 [link](https://www.acmicpc.net/problem/2565) [code](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_2565.java)
-* ​
+* 3307 [최장 부분 증가 수열](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWBOKg-a6l0DFAWr) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_3307.java) 
 
 
 ### Segment Tree
@@ -58,7 +58,6 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 * 10868 최소값 [link](https://www.acmicpc.net/problem/10868) [code](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_10868.java)
 * 1395 스위치 [link](https://www.acmicpc.net/problem/1395) [code](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_1395.java) X
 * 14338 [수열과 쿼리17](https://www.acmicpc.net/problem/14438) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_14438.java)
-
 
 ### Greedy
 
