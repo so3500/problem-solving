@@ -76,6 +76,7 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 - 2589 보물섬 BFS [link](https://www.acmicpc.net/problem/2589) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Knight_7562.java)
 - 14503 로봇청소기 BFS [link](https://www.acmicpc.net/problem/14503) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_14503.java)
 - 9205 [맥주마시면서걸어가기](https://www.acmicpc.net/problem/9205) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_9205.java)
+- 1953 [[삼성 모의 SW 역량테스트] 탈주범 검거](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PpLlKAQ4DFAUq) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_1953.java)
 
 ### Stack, Queue ..
 
@@ -256,8 +257,6 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 2112.[삼성 모의 SW 역량테스트] 보호 필름
 
 2105.[삼성 모의 SW 역량테스트] 디저트 카페
-
-1953.[삼성 모의 SW 역량테스트] 탈주범 검거
 
 1949.[삼성 모의 SW 역량테스트] 등산로 조성
 
