@@ -111,6 +111,7 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 - 2750 [수 정렬하기](https://www.acmicpc.net/problem/2750) PriorityQueue [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_2750.java)
 - 2751 [수 정렬하기2](https://www.acmicpc.net/problem/2751) PriorityQueue [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_2751.java)
 - 10989 [수 정렬하기3](https://www.acmicpc.net/problem/10989) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_10989.java)
+- 3977 [페르마의 크리스마스 정리](https://www.swexpertacademy.com/main/talk/codeBattle/problemDetail.do?contestProbId=AWIYJna6khUDFAVH&categoryId=AWH9yInKEWcDFAUG&categoryType=BATTLE) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_3799.java)
 
 #### (분할정복)
 
