@@ -114,6 +114,7 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 - 10989 [수 정렬하기3](https://www.acmicpc.net/problem/10989) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_10989.java)
 - 3977 [페르마의 크리스마스 정리](https://www.swexpertacademy.com/main/talk/codeBattle/problemDetail.do?contestProbId=AWIYJna6khUDFAVH&categoryId=AWH9yInKEWcDFAUG&categoryType=BATTLE) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_3799.java)
 - 4047 [영준이의 카드 카운팅](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWIsY84KEPMDFAWN) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_4047.java)
+- 2477 [[모의 SW 역량테스트] 차량 정비소](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV6c6bgaIuoDFAXy) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_2477.java)
 
 #### (분할정복)
 
