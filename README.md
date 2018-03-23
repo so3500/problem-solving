@@ -115,6 +115,7 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 - 3977 [페르마의 크리스마스 정리](https://www.swexpertacademy.com/main/talk/codeBattle/problemDetail.do?contestProbId=AWIYJna6khUDFAVH&categoryId=AWH9yInKEWcDFAUG&categoryType=BATTLE) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_3799.java)
 - 4047 [영준이의 카드 카운팅](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWIsY84KEPMDFAWN) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_4047.java)
 - 2477 [[모의 SW 역량테스트] 차량 정비소](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV6c6bgaIuoDFAXy) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_2477.java)
+- 3499 [퍼펙트 셔플](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWGsRbk6AQIDFAVW) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_3499.java)
 
 #### (분할정복)
 
@@ -258,8 +259,6 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 4012.[모의 SW 역량테스트] 요리사
 
 4008.[모의 SW 역량테스트] 숫자 만들기
-
-2477.[모의 SW 역량테스트] 차량 정비소
 
 2383.[모의 SW 역량테스트] 점심 식사시간
 
