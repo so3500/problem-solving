@@ -116,6 +116,7 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 - 4047 [영준이의 카드 카운팅](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWIsY84KEPMDFAWN) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_4047.java)
 - 2477 [[모의 SW 역량테스트] 차량 정비소](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV6c6bgaIuoDFAXy) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_2477.java)
 - 3499 [퍼펙트 셔플](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWGsRbk6AQIDFAVW) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_3499.java)
+- 2382 [[모의 SW 역량테스트] 미생물 격리](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV597vbqAH0DFAVl) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_2382.java)
 
 #### (분할정복)
 
