@@ -133,8 +133,10 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 - [10974 모든 순열](https://www.acmicpc.net/problem/10974) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_10974.java)
 - 6603 [로또](https://www.acmicpc.net/problem/6603) bfs, dfs, broute-force, backtracking [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_6603.java)
 - 1952 [[모의 SW 역량테스트] 수영장](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PpFQaAQMDFAUq) dfs [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_1952.java)
-- 2115.[[모의 SW 역량테스트] 벌꿀채취](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5V4A46AdIDFAWu&categoryId=AV5V4A46AdIDFAWu&categoryType=CODE) dfs [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_2115.java)
+- 2115[[모의 SW 역량테스트] 벌꿀채취](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5V4A46AdIDFAWu&categoryId=AV5V4A46AdIDFAWu&categoryType=CODE) dfs [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_2115.java)
 - 1767 [[SW Test 샘플문제] 프로세서 연결하기](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV4suNtaXFEDFAUf) dfs [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_1767.java)
+- 2806 [N-Queen](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV7GKs06AU0DFAXB) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_2806.java)
+ 
 #### ETC
 
 - 14501 퇴사 [link](https://www.acmicpc.net/problem/14501) [java1](https://github.com/so3500/problem-solving/blob/master/src/Boj_14501.java) [java2](https://github.com/so3500/problem-solving/blob/master/src/Resignation_14501.java) [slide](https://www.slideshare.net/SungOnLee/14501)
