@@ -124,6 +124,7 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 - 1493 [수의 새로운 연산](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV2b-QGqADMBBASw&categoryId=AV2b-QGqADMBBASw&categoryType=CODE) upperBound [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_1493.java) 
 - 4112 [이상한 피라미드 탐험](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWJHmLraeEwDFAUH) upperBound [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_4112.java) 
 - 2817 [부분 수열의 합](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV7IzvG6EksDFAXB) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_2817.java) 
+- 1284 [수도 요금 경쟁](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV189xUaI8UCFAZN) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_1284.java) 
 
 #### (분할정복)
 
