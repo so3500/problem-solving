@@ -34,7 +34,7 @@ problem solving with JAVA, Python etc.
 
 ----
 
-### Dynamic Promramming(동적 계획법)
+### Dynamic Programming(동적 계획법)
 
 - 1915 가장 큰 정사각형 [link](https://www.acmicpc.net/problem/1915) [code](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_1915.java)
 - 프리랜서 [link](https://www.codeground.org/practice) [java](https://github.com/so3500/problem-solving/blob/master/src/codeground/Freelancer.java)
@@ -45,6 +45,7 @@ problem solving with JAVA, Python etc.
 - 2579 계단오르기 [link](https://www.acmicpc.net/problem/2579) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Stairs_2579.java) [slide](https://www.slideshare.net/SungOnLee/2579-87188918)
 - 2747 [피보나치 수](https://www.acmicpc.net/problem/2747) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_2747.java)
 - 2662 [기업투자](https://www.acmicpc.net/problem/2662) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_2662.java) X
+- 3282 [0/1 Knapsack](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWBJAVpqrzQDFAWr) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_3282.java)
 
 LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 
@@ -268,8 +269,6 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 4014.[모의 SW 역량테스트] 활주로 건설
 
 4013.[모의 SW 역량테스트] 특이한 자석
-
-4012.[모의 SW 역량테스트] 요리사
 
 4008.[모의 SW 역량테스트] 숫자 만들기
 
