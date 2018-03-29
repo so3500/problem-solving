@@ -143,7 +143,8 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 - 1767 [[SW Test 샘플문제] 프로세서 연결하기](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV4suNtaXFEDFAUf) dfs [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_1767.java)
 - 2806 [N-Queen](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV7GKs06AU0DFAXB) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_2806.java)
 - 1486 [장훈이의 높은 선반](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV2b7Yf6ABcBBASw&categoryId=AV2b7Yf6ABcBBASw&categoryType=CODE) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_1486.java)
- 
+- 4012 [[모의 SW 역량테스트] 요리사](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWIeUtVakTMDFAVH) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_4012.java)
+
 #### ETC
 
 - 14501 퇴사 [link](https://www.acmicpc.net/problem/14501) [java1](https://github.com/so3500/problem-solving/blob/master/src/Boj_14501.java) [java2](https://github.com/so3500/problem-solving/blob/master/src/Resignation_14501.java) [slide](https://www.slideshare.net/SungOnLee/14501)
