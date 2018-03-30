@@ -145,6 +145,7 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 - 2806 [N-Queen](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV7GKs06AU0DFAXB) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_2806.java)
 - 1486 [장훈이의 높은 선반](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV2b7Yf6ABcBBASw&categoryId=AV2b7Yf6ABcBBASw&categoryType=CODE) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_1486.java)
 - 4012 [[모의 SW 역량테스트] 요리사](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWIeUtVakTMDFAVH) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_4012.java)
+- 4008 [[모의 SW 역량테스트] 숫자 만들기](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWIeRZV6kBUDFAVH) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_4008.java)
 
 #### ETC
 
