@@ -83,6 +83,7 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 - 1210 DFS [Ladder1](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14ABYKADACFAYh&categoryId=AV14ABYKADACFAYh&categoryType=CODE) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_1210.java)
 - 1211 DFS [Ladder2](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14BgD6AEECFAYh&categoryId=AV14BgD6AEECFAYh&categoryType=CODE) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_1211.java)
 - 2819 DFS [격자판의 숫자 이어 붙이기](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV7I5fgqEogDFAXB) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_2819.java)
+- 2117 DFS, BFS [[모의 SW 역량테스트] 홈 방범 서비스](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5V61LqAf8DFAWu) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_2117.java)
 
 ### Stack, Queue ..
 
@@ -271,12 +272,6 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 4014.[모의 SW 역량테스트] 활주로 건설
 
 4013.[모의 SW 역량테스트] 특이한 자석
-
-4008.[모의 SW 역량테스트] 숫자 만들기
-
-2383.[모의 SW 역량테스트] 점심 식사시간
-
-2117.[모의 SW 역량테스트] 홈 방범 서비스
 
 2112.[모의 SW 역량테스트] 보호 필름
 
