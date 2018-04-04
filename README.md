@@ -129,6 +129,7 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 - 1284 [수도 요금 경쟁](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV189xUaI8UCFAZN) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_1284.java) 
 - 2805 [농작물 수확하기](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV7GLXqKAWYDFAXB&categoryId=AV7GLXqKAWYDFAXB&categoryType=CODE) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_2805.java)
 - 4013 [[모의 SW 역량테스트] 특이한 자석](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWIeV9sKkcoDFAVH) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_4013.java)
+- 4050 [재관이의 대량 할인](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWIseXoKEUcDFAWN&categoryId=AWIseXoKEUcDFAWN&categoryType=CODE) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_4050.java)
 
 #### (분할정복)
 
