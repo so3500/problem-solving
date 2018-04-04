@@ -127,6 +127,8 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 - 4112 [이상한 피라미드 탐험](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWJHmLraeEwDFAUH) upperBound [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_4112.java) 
 - 2817 [부분 수열의 합](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV7IzvG6EksDFAXB) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_2817.java) 
 - 1284 [수도 요금 경쟁](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV189xUaI8UCFAZN) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_1284.java) 
+- 2805 [농작물 수확하기](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV7GLXqKAWYDFAXB&categoryId=AV7GLXqKAWYDFAXB&categoryType=CODE) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_2805.java)
+- 4013 [[모의 SW 역량테스트] 특이한 자석](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWIeV9sKkcoDFAVH) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_4013.java)
 
 #### (분할정복)
 
@@ -270,8 +272,6 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 [목록 ](https://www.swexpertacademy.com/main/userpage/code/userProblemBoxDetail.do?probBoxId=AV5Po0AqAPwDFAUq&leftPage=1&curPage=userpage&userId=SWEAC)
 
 4014.[모의 SW 역량테스트] 활주로 건설
-
-4013.[모의 SW 역량테스트] 특이한 자석
 
 2112.[모의 SW 역량테스트] 보호 필름
 
