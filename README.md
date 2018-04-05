@@ -133,7 +133,8 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 - 4013 [[모의 SW 역량테스트] 특이한 자석](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWIeV9sKkcoDFAVH) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_4013.java)
 - 4050 [재관이의 대량 할인](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWIseXoKEUcDFAWN&categoryId=AWIseXoKEUcDFAWN&categoryType=CODE) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_4050.java)
 - 4014 [[모의 SW 역량테스트]활주로 건설](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWIeW7FakkUDFAVH) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_4014.java)
- 
+- 3752 [가능한 시험 점수](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWHPkqBqAEsDFAUn&categoryId=AWHPkqBqAEsDFAUn&categoryType=CODE) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_3752.java)
+
 #### (분할정복)
 
 - 2805 나무 자르기 [link](https://www.acmicpc.net/problem/1780) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/NumOfPaper_1780.java) .
@@ -274,8 +275,6 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 ### 모의 SW 역량 테스트
 
 [목록 ](https://www.swexpertacademy.com/main/userpage/code/userProblemBoxDetail.do?probBoxId=AV5Po0AqAPwDFAUq&leftPage=1&curPage=userpage&userId=SWEAC)
-
-4014.[모의 SW 역량테스트] 활주로 건설
 
 2112.[모의 SW 역량테스트] 보호 필름
 
