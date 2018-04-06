@@ -47,6 +47,7 @@ problem solving with JAVA, Python etc.
 - 2662 [기업투자](https://www.acmicpc.net/problem/2662) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_2662.java) X
 - 3282 [0/1 Knapsack](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWBJAVpqrzQDFAWr) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_3282.java)
 - 1003 [피보나치 함수](https://www.acmicpc.net/problem/1003) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_1003.java)
+- 1699[제곱수의 합](https://www.acmicpc.net/problem/1699) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_1699.java)
 
 LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 
@@ -192,13 +193,10 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 - [가장 긴 바이토닉 부분 수열](https://www.acmicpc.net/problem/11054)
 - [연속합](https://www.acmicpc.net/problem/1912)
 - [계단 오르기](https://www.acmicpc.net/problem/2579)
-- [제곱수의 합](https://www.acmicpc.net/problem/1699)
 - [타일 채우기](https://www.acmicpc.net/problem/2133)
 - [파도반 수열](https://www.acmicpc.net/problem/9461)
 - [합분해](https://www.acmicpc.net/problem/2225)
 - [암호코드](https://www.acmicpc.net/problem/2011)
-
-
 - [~~이동하기~~](https://www.acmicpc.net/problem/11048)
 - [~~점프~~](https://www.acmicpc.net/problem/1890)
 - [~~팰린드롬?~~](https://www.acmicpc.net/problem/10942)
