@@ -37,8 +37,8 @@ problem solving with JAVA, Python etc.
 ### Dynamic Programming(동적 계획법)
 
 - 1915 가장 큰 정사각형 [link](https://www.acmicpc.net/problem/1915) [code](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_1915.java)
-- 프리랜서 [link](https://www.codeground.org/practice) [java](https://github.com/so3500/problem-solving/blob/master/src/codeground/Freelancer.java)
-- 할인권(Floyd-warshall) [link](https://www.codeground.org/practice) [java](https://github.com/so3500/problem-solving/blob/master/src/codeground/DiscountCoupon.java)
+- 프리랜서 [link](https://www.codeground.org/practice) [java](https://github.com/so3500/problem-solving/blob/master/src/codeground/codeground.Freelancer.java)
+- 할인권(Floyd-warshall) [link](https://www.codeground.org/practice) [java](https://github.com/so3500/problem-solving/blob/master/src/codeground/codeground.DiscountCoupon.java)
 - 10942 펠린드롬? [link](https://www.acmicpc.net/problem/10942) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_10942.java)
 - 2098 외판원 [link](https://www.acmicpc.net/problem/2098) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/SalesPerson_2098.java) X
 - 1890 점프 [link](https://www.acmicpc.net/problem/1890) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Jump_1890.java)
@@ -46,6 +46,7 @@ problem solving with JAVA, Python etc.
 - 2747 [피보나치 수](https://www.acmicpc.net/problem/2747) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_2747.java)
 - 2662 [기업투자](https://www.acmicpc.net/problem/2662) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_2662.java) X
 - 3282 [0/1 Knapsack](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWBJAVpqrzQDFAWr) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_3282.java)
+- 1003 [피보나치 함수](https://www.acmicpc.net/problem/1003) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_1003.java)
 
 LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 
@@ -100,13 +101,13 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 - SE-3131 [100만 이하의 모든 소수](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV_6mRsasV8DFAWS&categoryId=AV_6mRsasV8DFAWS&categoryType=CODE) 에라토스테네스의 체 [java](https://github.com/so3500/problem-solving/tree/master/src/swexpert/SE_3131.java)
 - 2839 설탕배달 [link](https://www.acmicpc.net/problem/2839) [code](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_2839.java)
 - 개구리 점프 [link](https://www.codeground.org/practice) [java](https://github.com/so3500/problem-solving/blob/master/src/codeground/FrogJump.java) 
-- 숫자 골라내기 [link](https://www.codeground.org/practice) [java](https://github.com/so3500/problem-solving/blob/master/src/codeground/PickNumber.java)
-- 시험공부 [link](https://www.codeground.org/practice) [java](https://github.com/so3500/problem-solving/blob/master/src/codeground/TestStudy.java)
-- 좋은 수 [link](https://www.codeground.org/practice) [java](https://github.com/so3500/problem-solving/blob/master/src/codeground/GoodNumber.java) ㅁ
-- 프로그래밍 경진대회 [link](https://www.codeground.org/practice) [java](https://github.com/so3500/problem-solving/blob/master/src/codeground/ProgrammingCompetition.java)
-- 방속의 거울 [link](https://www.codeground.org/practice) [java](https://github.com/so3500/problem-solving/blob/master/src/codeground/MirrorInRoom.java)
-- 하노이 타워 [link](https://www.codeground.org/practice) [java](https://github.com/so3500/problem-solving/blob/master/src/codeground/HanoiTop.java) 
-- 안녕 [link](https://www.codeground.org/practice) [java](https://github.com/so3500/problem-solving/blob/master/src/codeground/Hello.java) 
+- 숫자 골라내기 [link](https://www.codeground.org/practice) [java](https://github.com/so3500/problem-solving/blob/master/src/codeground/codeground.PickNumber.java)
+- 시험공부 [link](https://www.codeground.org/practice) [java](https://github.com/so3500/problem-solving/blob/master/src/codeground/codeground.TestStudy.java)
+- 좋은 수 [link](https://www.codeground.org/practice) [java](https://github.com/so3500/problem-solving/blob/master/src/codeground/codeground.GoodNumber.java) ㅁ
+- 프로그래밍 경진대회 [link](https://www.codeground.org/practice) [java](https://github.com/so3500/problem-solving/blob/master/src/codeground/codeground.ProgrammingCompetition.java)
+- 방속의 거울 [link](https://www.codeground.org/practice) [java](https://github.com/so3500/problem-solving/blob/master/src/codeground/codeground.MirrorInRoom.java)
+- 하노이 타워 [link](https://www.codeground.org/practice) [java](https://github.com/so3500/problem-solving/blob/master/src/codeground/codeground.HanoiTop.java) 
+- 안녕 [link](https://www.codeground.org/practice) [java](https://github.com/so3500/problem-solving/blob/master/src/codeground/codeground.Hello.java) 
 - 11399 ATM [link](https://www.acmicpc.net/problem/11399) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/ATM_11399.java)
 - 2935 소음 문자열 연산 [link](https://www.acmicpc.net/problem/2935) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Noise_2935.java)
 - 2851 수퍼마리오 [link](https://www.acmicpc.net/problem/2851) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/SuperMario_2851.java)
@@ -134,6 +135,8 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 - 4050 [재관이의 대량 할인](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWIseXoKEUcDFAWN&categoryId=AWIseXoKEUcDFAWN&categoryType=CODE) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_4050.java)
 - 4014 [[모의 SW 역량테스트]활주로 건설](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWIeW7FakkUDFAVH) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_4014.java)
 - 3752 [가능한 시험 점수](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWHPkqBqAEsDFAUn&categoryId=AWHPkqBqAEsDFAUn&categoryType=CODE) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_3752.java)
+- 14499 [주사위 굴리기](https://www.acmicpc.net/problem/14499) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_14499.java)
+
 
 #### (분할정복)
 
@@ -155,6 +158,8 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 - 4012 [[모의 SW 역량테스트] 요리사](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWIeUtVakTMDFAVH) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_4012.java)
 - 4008 [[모의 SW 역량테스트] 숫자 만들기](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWIeRZV6kBUDFAVH) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_4008.java)
 - 2383 [[모의 SW 역량테스트] 점심 식사시간](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5-BEE6AK0DFAVl&) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_2383.java) 
+- 14502 [연구소](https://www.acmicpc.net/problem/14502) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_14502.java)
+
  
 #### ETC
 

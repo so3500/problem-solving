@@ -25,3 +25,8 @@ hs_err_pid*
 out/
 input.txt
 problemSolving.iml
+/.metadata/
+
+.classpath
+.project
+.settings/
