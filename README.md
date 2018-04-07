@@ -49,6 +49,8 @@ problem solving with JAVA, Python etc.
 - 1003 [피보나치 함수](https://www.acmicpc.net/problem/1003) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_1003.java)
 - 1699[제곱수의 합](https://www.acmicpc.net/problem/1699) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_1699.java)
 - 1463 [1로 만들기](https://www.acmicpc.net/problem/1463) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_1463.java)
+- 11726 [2*n 타일링](https://www.acmicpc.net/problem/11726) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_11726.java)
+- 11727 [2*n 타일링2](https://www.acmicpc.net/problem/11727) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_11727.java)
 
 LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 
@@ -217,14 +219,11 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 - [같은 탑](https://www.acmicpc.net/problem/1126)
 
 #### 완전 탐색 0
-
 - [~~집합~~](https://www.acmicpc.net/problem/11723)
 - [다음 순열](https://www.acmicpc.net/problem/10972)
 - [이전 순열](https://www.acmicpc.net/problem/10973)
 - [~~모든 순열~~](https://www.acmicpc.net/problem/10974)
 - [순열의 순서](https://www.acmicpc.net/problem/1722)
-
-
 - [~~날짜 계산~~](https://www.acmicpc.net/problem/1476)
 - [리모컨](https://www.acmicpc.net/problem/1107)
 - [1, 2, 3 더하기](https://www.acmicpc.net/problem/9095)
