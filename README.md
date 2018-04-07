@@ -88,6 +88,7 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 - 2117 DFS, BFS [[모의 SW 역량테스트] 홈 방범 서비스](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5V61LqAf8DFAWu) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_2117.java)
 - 1219 DFS [길찾기](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14geLqABQCFAYD&categoryId=AV14geLqABQCFAYD&categoryType=CODE) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_1219.java)
 - 1949 DFS [[모의 SW 역량테스트] 등산로 조성](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PoOKKAPIDFAUq) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_1949.java)
+- 14500 [테트로미노](https://www.acmicpc.net/problem/14500) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_14500.java)
 
 ### Stack, Queue ..
 
@@ -280,10 +281,6 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 [목록 ](https://www.swexpertacademy.com/main/userpage/code/userProblemBoxDetail.do?probBoxId=AV5Po0AqAPwDFAUq&leftPage=1&curPage=userpage&userId=SWEAC)
 
 2112.[모의 SW 역량테스트] 보호 필름
-
-1949.[모의 SW 역량테스트] 등산로 조성
-
-
 
 #### 트리 2
 
