@@ -23,7 +23,7 @@
 *
 * */
 
-package swexpert;
+package boj;
 
 import java.util.Scanner;
 
