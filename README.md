@@ -90,6 +90,7 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 - 1219 DFS [길찾기](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14geLqABQCFAYD&categoryId=AV14geLqABQCFAYD&categoryType=CODE) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_1219.java)
 - 1949 DFS [[모의 SW 역량테스트] 등산로 조성](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PoOKKAPIDFAUq) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_1949.java)
 - 14500 [테트로미노](https://www.acmicpc.net/problem/14500) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_14500.java)
+- 2468 DFS [안전 영역](https://www.acmicpc.net/problem/2468) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_2468.java)
 
 ### Stack, Queue ..
 
