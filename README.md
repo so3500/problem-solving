@@ -93,6 +93,7 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 - 1949 DFS [[모의 SW 역량테스트] 등산로 조성](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PoOKKAPIDFAUq) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_1949.java)
 - 14500 [테트로미노](https://www.acmicpc.net/problem/14500) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_14500.java)
 - 2468 DFS [안전 영역](https://www.acmicpc.net/problem/2468) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_2468.java)
+- 11726 [알파벳](https://www.acmicpc.net/problem/1987) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_1987.java)
 
 ### Stack, Queue ..
 
@@ -181,8 +182,6 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 # TODO
 
 #### 다이나믹 프로그래밍 1
-- [2×n 타일링](https://www.acmicpc.net/problem/11726)
-- [2×n 타일링 2](https://www.acmicpc.net/problem/11727)
 - [1, 2, 3 더하기](https://www.acmicpc.net/problem/9095)
 - [붕어빵 판매하기](https://www.acmicpc.net/problem/11052)
 - [쉬운 계단 수](https://www.acmicpc.net/problem/10844)
@@ -238,7 +237,6 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 - [암호 만들기](https://www.acmicpc.net/problem/1759)
 - [N-Queen](https://www.acmicpc.net/problem/9663)
 - [스도쿠](https://www.acmicpc.net/problem/2580)
-- [알파벳](https://www.acmicpc.net/problem/1987)
 - [로또](https://www.acmicpc.net/problem/6603)
 - [부분집합의 합](https://www.acmicpc.net/problem/1182)
 - [~~수들의 합 2~~](https://www.acmicpc.net/problem/2003)
