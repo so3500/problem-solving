@@ -173,7 +173,7 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 - 14501 퇴사 [link](https://www.acmicpc.net/problem/14501) [java1](https://github.com/so3500/problem-solving/blob/master/src/Boj_14501.java) [java2](https://github.com/so3500/problem-solving/blob/master/src/Resignation_14501.java) [slide](https://www.slideshare.net/SungOnLee/14501)
 - 2805 나무 자르기 binarySearch [link](https://www.acmicpc.net/problem/2805) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/CutTree_2805.java) [시간복잡도 계산 참고](https://math.stackexchange.com/questions/401937/how-is-nn-2n-4-1-equal-to-2n-1-using-the-formula-for-geometric-series)
 - 11723 [집합](https://www.acmicpc.net/problem/11723) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_11723.java)
-
+- 1806 two-pointer[부분합](https://www.acmicpc.net/problem/1806) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_1806.java)
 
 
 
@@ -240,7 +240,6 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 - [로또](https://www.acmicpc.net/problem/6603)
 - [부분집합의 합](https://www.acmicpc.net/problem/1182)
 - [~~수들의 합 2~~](https://www.acmicpc.net/problem/2003)
-- [~~부분합~~](https://www.acmicpc.net/problem/1806)
 - [소수의 연속합](https://www.acmicpc.net/problem/1644)
 - [알고스팟](https://www.acmicpc.net/problem/1261)
 - [부분집합의 합 2](https://www.acmicpc.net/problem/1208)
