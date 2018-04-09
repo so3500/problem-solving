@@ -166,7 +166,7 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 - 4008 [[모의 SW 역량테스트] 숫자 만들기](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWIeRZV6kBUDFAVH) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_4008.java)
 - 2383 [[모의 SW 역량테스트] 점심 식사시간](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5-BEE6AK0DFAVl&) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_2383.java) 
 - 14502 [연구소](https://www.acmicpc.net/problem/14502) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_14502.java)
-
+- 12100 [2048(Easy)](https://www.acmicpc.net/problem/12100) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_12100.java)
  
 #### ETC
 
