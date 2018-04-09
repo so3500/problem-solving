@@ -94,6 +94,7 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 - 14500 [테트로미노](https://www.acmicpc.net/problem/14500) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_14500.java)
 - 2468 DFS [안전 영역](https://www.acmicpc.net/problem/2468) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_2468.java)
 - 11726 [알파벳](https://www.acmicpc.net/problem/1987) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_1987.java)
+- 1697 BFS [숨바꼭질](https://www.acmicpc.net/problem/1697) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_1697.java)
 
 ### Stack, Queue ..
 
@@ -143,6 +144,7 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 - 4014 [[모의 SW 역량테스트]활주로 건설](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWIeW7FakkUDFAVH) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_4014.java)
 - 3752 [가능한 시험 점수](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWHPkqBqAEsDFAUn&categoryId=AWHPkqBqAEsDFAUn&categoryType=CODE) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_3752.java)
 - 14499 [주사위 굴리기](https://www.acmicpc.net/problem/14499) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_14499.java)
+- 13458 [시험감독](https://www.acmicpc.net/problem/13458) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_13458.java)
 
 
 #### (분할정복)
@@ -167,6 +169,8 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 - 2383 [[모의 SW 역량테스트] 점심 식사시간](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5-BEE6AK0DFAVl&) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_2383.java) 
 - 14502 [연구소](https://www.acmicpc.net/problem/14502) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_14502.java)
 - 12100 [2048(Easy)](https://www.acmicpc.net/problem/12100) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_12100.java)
+- 1018 [체스판 다시 칠하기](https://www.acmicpc.net/problem/1018) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_1018.java)
+- 2309 [일곱 난쟁이](https://www.acmicpc.net/problem/2309) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_2309.java)
  
 #### ETC
 
