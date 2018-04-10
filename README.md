@@ -171,6 +171,7 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 - 12100 [2048(Easy)](https://www.acmicpc.net/problem/12100) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_12100.java)
 - 1018 [체스판 다시 칠하기](https://www.acmicpc.net/problem/1018) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_1018.java)
 - 2309 [일곱 난쟁이](https://www.acmicpc.net/problem/2309) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_2309.java)
+- 2112 [[모의 SW 역량테스트] 보호 필름](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5V1SYKAaUDFAWu) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_2112.java)
  
 #### ETC
 
@@ -233,7 +234,6 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 - [차이를 최대로](https://www.acmicpc.net/problem/10819)
 - [외판원 순회 2](https://www.acmicpc.net/problem/10971)
 - [로또](https://www.acmicpc.net/problem/6603)
-- [숨바꼭질](https://www.acmicpc.net/problem/1697)
 - [소수 경로](https://www.acmicpc.net/problem/1963)
 - [DSLR](https://www.acmicpc.net/problem/9019)
 - [퍼즐](https://www.acmicpc.net/problem/1525)
