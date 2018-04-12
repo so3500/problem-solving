@@ -145,7 +145,8 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 - 3752 [가능한 시험 점수](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWHPkqBqAEsDFAUn&categoryId=AWHPkqBqAEsDFAUn&categoryType=CODE) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_3752.java)
 - 14499 [주사위 굴리기](https://www.acmicpc.net/problem/14499) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_14499.java)
 - 13458 [시험감독](https://www.acmicpc.net/problem/13458) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_13458.java)
-
+- 1644 [소수의 연속합](https://www.acmicpc.net/problem/1644) (https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_1644.java)
+- 3190 [뱀](https://www.acmicpc.net/problem/3190) (https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_3190.java)
 
 #### (분할정복)
 
@@ -155,7 +156,7 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 #### Brute-Force (완전탐색)
 
 - 1182 부분집합의 합 [link](https://www.acmicpc.net/problem/1182) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/SumOfSubset_1182.java)
-- 3002 수들의 합2 tow-pointer [link](https://www.acmicpc.net/problem/2003) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/SumOfNum2_2003.java)
+- 2003 수들의 합2 tow-pointer [link](https://www.acmicpc.net/problem/2003) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/SumOfNum2_2003.java)
 - 14888 연산자 끼워넣기 [link](https://www.acmicpc.net/problem/14888) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_14888.java)
 - [10974 모든 순열](https://www.acmicpc.net/problem/10974) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_10974.java)
 - 6603 [로또](https://www.acmicpc.net/problem/6603) bfs, dfs, broute-force, backtracking [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_6603.java)
@@ -172,6 +173,8 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 - 1018 [체스판 다시 칠하기](https://www.acmicpc.net/problem/1018) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_1018.java)
 - 2309 [일곱 난쟁이](https://www.acmicpc.net/problem/2309) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_2309.java)
 - 2112 [[모의 SW 역량테스트] 보호 필름](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5V1SYKAaUDFAWu) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_2112.java)
+- 10819 [차이를 최대로](https://www.acmicpc.net/problem/10819) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_10819.java)
+- 1759 [암호 만들기](https://www.acmicpc.net/problem/1759) (https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_1759.java)
  
 #### ETC
 
@@ -231,14 +234,12 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 - [~~날짜 계산~~](https://www.acmicpc.net/problem/1476)
 - [리모컨](https://www.acmicpc.net/problem/1107)
 - [1, 2, 3 더하기](https://www.acmicpc.net/problem/9095)
-- [차이를 최대로](https://www.acmicpc.net/problem/10819)
 - [외판원 순회 2](https://www.acmicpc.net/problem/10971)
 - [로또](https://www.acmicpc.net/problem/6603)
 - [소수 경로](https://www.acmicpc.net/problem/1963)
 - [DSLR](https://www.acmicpc.net/problem/9019)
 - [퍼즐](https://www.acmicpc.net/problem/1525)
 - [물통](https://www.acmicpc.net/problem/2251)
-- [암호 만들기](https://www.acmicpc.net/problem/1759)
 - [N-Queen](https://www.acmicpc.net/problem/9663)
 - [스도쿠](https://www.acmicpc.net/problem/2580)
 - [로또](https://www.acmicpc.net/problem/6603)
@@ -279,8 +280,6 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 ### 모의 SW 역량 테스트
 
 [목록 ](https://www.swexpertacademy.com/main/userpage/code/userProblemBoxDetail.do?probBoxId=AV5Po0AqAPwDFAUq&leftPage=1&curPage=userpage&userId=SWEAC)
-
-2112.[모의 SW 역량테스트] 보호 필름
 
 #### 트리 2
 
