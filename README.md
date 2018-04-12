@@ -95,6 +95,9 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 - 2468 DFS [안전 영역](https://www.acmicpc.net/problem/2468) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_2468.java)
 - 11726 [알파벳](https://www.acmicpc.net/problem/1987) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_1987.java)
 - 1697 BFS [숨바꼭질](https://www.acmicpc.net/problem/1697) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_1697.java)
+- 1938 BFS [통나무 옮기기](https://www.acmicpc.net/problem/1938) (https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_1938.java)
+- 1938 BFS [통나무 옮기기](https://www.acmicpc.net/problem/1938) (https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_1938.java)
+- 13549 BFS [숨바꼭질 3](https://www.acmicpc.net/problem/13549) (https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_13549.java)
 
 ### Stack, Queue ..
 
@@ -145,8 +148,8 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 - 3752 [가능한 시험 점수](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWHPkqBqAEsDFAUn&categoryId=AWHPkqBqAEsDFAUn&categoryType=CODE) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_3752.java)
 - 14499 [주사위 굴리기](https://www.acmicpc.net/problem/14499) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_14499.java)
 - 13458 [시험감독](https://www.acmicpc.net/problem/13458) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_13458.java)
-- 1644 [소수의 연속합](https://www.acmicpc.net/problem/1644) (https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_1644.java)
-- 3190 [뱀](https://www.acmicpc.net/problem/3190) (https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_3190.java)
+- 1644 [소수의 연속합](https://www.acmicpc.net/problem/1644) [java]https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_1644.java)
+- 3190 [뱀](https://www.acmicpc.net/problem/3190) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_3190.java)
 
 #### (분할정복)
 
@@ -174,7 +177,7 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 - 2309 [일곱 난쟁이](https://www.acmicpc.net/problem/2309) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_2309.java)
 - 2112 [[모의 SW 역량테스트] 보호 필름](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5V1SYKAaUDFAWu) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_2112.java)
 - 10819 [차이를 최대로](https://www.acmicpc.net/problem/10819) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_10819.java)
-- 1759 [암호 만들기](https://www.acmicpc.net/problem/1759) (https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_1759.java)
+- 1759 [암호 만들기](https://www.acmicpc.net/problem/1759) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_1759.java)
  
 #### ETC
 
