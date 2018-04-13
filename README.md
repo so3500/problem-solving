@@ -51,6 +51,7 @@ problem solving with JAVA, Python etc.
 - 1463 [1로 만들기](https://www.acmicpc.net/problem/1463) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_1463.java)
 - 11726 [2*n 타일링](https://www.acmicpc.net/problem/11726) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_11726.java)
 - 11727 [2*n 타일링2](https://www.acmicpc.net/problem/11727) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_11727.java)
+- 1937 DP, DFS [욕심쟁이 판다](https://www.acmicpc.net/problem/1937) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_1937.java)
 
 LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 
@@ -95,9 +96,11 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 - 2468 DFS [안전 영역](https://www.acmicpc.net/problem/2468) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_2468.java)
 - 11726 [알파벳](https://www.acmicpc.net/problem/1987) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_1987.java)
 - 1697 BFS [숨바꼭질](https://www.acmicpc.net/problem/1697) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_1697.java)
-- 1938 BFS [통나무 옮기기](https://www.acmicpc.net/problem/1938) (https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_1938.java)
-- 1938 BFS [통나무 옮기기](https://www.acmicpc.net/problem/1938) (https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_1938.java)
-- 13549 BFS [숨바꼭질 3](https://www.acmicpc.net/problem/13549) (https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_13549.java)
+- 1938 BFS [통나무 옮기기](https://www.acmicpc.net/problem/1938) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_1938.java)
+- 13549 BFS [숨바꼭질 3](https://www.acmicpc.net/problem/13549) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_13549.java)
+- 1647 MST [도시 분할 계획](https://www.acmicpc.net/problem/1647) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_1647.java)
+- 14621 MST [나만 안되는 연애](https://www.acmicpc.net/problem/14621) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_14621.java)
+- 1525 BFS [퍼즐](https://www.acmicpc.net/problem/1525) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_1525.java)
 
 ### Stack, Queue ..
 
@@ -148,7 +151,7 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 - 3752 [가능한 시험 점수](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWHPkqBqAEsDFAUn&categoryId=AWHPkqBqAEsDFAUn&categoryType=CODE) [java](https://github.com/so3500/problem-solving/blob/master/src/swexpert/SE_3752.java)
 - 14499 [주사위 굴리기](https://www.acmicpc.net/problem/14499) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_14499.java)
 - 13458 [시험감독](https://www.acmicpc.net/problem/13458) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_13458.java)
-- 1644 [소수의 연속합](https://www.acmicpc.net/problem/1644) [java]https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_1644.java)
+- 1644 [소수의 연속합](https://www.acmicpc.net/problem/1644) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_1644.java)
 - 3190 [뱀](https://www.acmicpc.net/problem/3190) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_3190.java)
 
 #### (분할정복)
