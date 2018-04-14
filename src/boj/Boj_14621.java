@@ -89,7 +89,7 @@ public class Boj_14621 {
 			uRoot = vRoot;
 			vRoot = temp;
 		}
-		// u 집합이 v 집합보다 높이값이 작으므로 u 집합에 v 집합을 추가
+		// u 집합이 v 집합보다 높이값이 작으므로 v 집합에 u 집합을 추가
 		parent[uRoot] = parent[vRoot];
 
 		// 두 집합의 높이값이 같다면 v 집합의 높이값에 1 추가

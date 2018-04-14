@@ -101,6 +101,12 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 - 1647 MST [도시 분할 계획](https://www.acmicpc.net/problem/1647) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_1647.java)
 - 14621 MST [나만 안되는 연애](https://www.acmicpc.net/problem/14621) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_14621.java)
 - 1525 BFS [퍼즐](https://www.acmicpc.net/problem/1525) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_1525.java)
+- 2178 BFS [미로 탐색](https://www.acmicpc.net/problem/2178) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_2178.java)
+- 7576 BFS [토마토](https://www.acmicpc.net/problem/7576) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_7576.java)
+- 2667 DFS [단지번호붙이기](https://www.acmicpc.net/problem/2667) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_2667.java)
+- 2206 BFS [벽 부수고 이동하기](https://www.acmicpc.net/problem/2206) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_2206.java)
+- 2589 BFS [보물섬](https://www.acmicpc.net/problem/2589) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_2589.java)
+- 1260 [DFS와 BFS](https://www.acmicpc.net/problem/1260) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_1260.java)
 
 ### Stack, Queue ..
 
