@@ -107,6 +107,7 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 - 2206 BFS [벽 부수고 이동하기](https://www.acmicpc.net/problem/2206) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_2206.java)
 - 2589 BFS [보물섬](https://www.acmicpc.net/problem/2589) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_2589.java)
 - 1260 [DFS와 BFS](https://www.acmicpc.net/problem/1260) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_1260.java)
+- 2665 BFS [미로만들기](https://www.acmicpc.net/problem/2665) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_2665.java)
 
 ### Stack, Queue ..
 
