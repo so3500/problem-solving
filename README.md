@@ -70,6 +70,8 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 
 - 11047 동전 [link](https://www.acmicpc.net/problem/11047) [code](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_11047.java)
 - 2437 저울 [link](https://www.acmicpc.net/problem/2437) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Scale_2437.java)
+- 5585 [거스름돈](https://www.acmicpc.net/problem/5585) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_5585.java)
+- 2875 [대회 or 인턴](https://www.acmicpc.net/problem/2875) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_2875.java)
 
 ### BFS, DFS, Graph
 

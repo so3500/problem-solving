@@ -9,23 +9,34 @@ import java.util.Random;
 public class Sort {
 
 	static int[] arr, sortedArr;
-	static int SIZE = 10000;
+	static int SIZE = 40000;
 
 	public static void main(String[] args) throws Exception {
 		long start, end;
 		getRandomNumber();
-		// bubble sort
 		start = System.currentTimeMillis();
-		bubbleSort();
-		end = System.currentTimeMillis();
-		System.out.println("tiem: " + (end - start) / 1000.0);
-		printArr("bubbleSort.txt");
-		// insertion sort
-		// selection sort
+		// bubble sort (40000, 2.485)
+		// bubbleSort();
+
+		// insertion sort (40000, 0.919)
+		// insertionSort();
+		
+		// selection sort (40000, 0.492)
+		// selectionSort();
+		
 		// merge sort
+
 		// quick sort
+
 		// heap sort
+
 		// radix sort
+
+		end = System.currentTimeMillis();
+		System.out.println("time: " + (end - start) / 1000.0);
+		// printArr("bubbleSort.txt");
+		// printArr("selectionSort.txt");
+		printArr("insertionSort.txt");
 	}
 
 	static void getRandomNumber() throws Exception {
@@ -65,7 +76,7 @@ public class Sort {
 		// input.close();
 	}
 
-	static void bubbleSort() throws Exception {
+	static void bubbleSort() {
 		// 오름차순 정렬일 때 큰 수를 뒤로 보낸다.
 		for (int i = SIZE - 1; i >= 0; i--) {
 			for (int j = 0; j < i; j++) {
@@ -74,7 +85,36 @@ public class Sort {
 				}
 			}
 		}
+	}
 
+	static void selectionSort() {
+		// https://en.wikipedia.org/wiki/Selection_sort
+		int i, j, minIdx;
+		for (i = 0; i < SIZE; i++) {
+			minIdx = i;
+			for (j = i; j < SIZE; j++) {
+				if (arr[minIdx] > arr[j]) {
+					minIdx = j;
+				}
+			}
+			if (minIdx != i) {
+				swap(i, minIdx);
+			}
+		}
+	}
+
+	static void insertionSort() {
+		// https://en.wikipedia.org/wiki/Insertion_sort
+		int i, j;
+		for (i = 0; i < SIZE; i++) {
+			for (j = i; j >= 1; j--) {
+				if (arr[j - 1] > arr[j]) {
+					swap(j - 1, j);
+				} else {
+					break;
+				}
+			}
+		}
 	}
 
 	static void swap(int idxA, int idxB) {
@@ -86,7 +126,7 @@ public class Sort {
 	static void printArr(String fileName) throws Exception {
 		FileOutputStream output = new FileOutputStream(fileName);
 		StringBuilder sb = new StringBuilder();
-		for(int i=0; i<SIZE; i++) {
+		for (int i = 0; i < SIZE; i++) {
 			sb.append(arr[i]).append("\r\n");
 		}
 		output.write(sb.toString().getBytes());
