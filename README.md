@@ -110,6 +110,7 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 - 2589 BFS [보물섬](https://www.acmicpc.net/problem/2589) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_2589.java)
 - 1260 [DFS와 BFS](https://www.acmicpc.net/problem/1260) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_1260.java)
 - 2665 BFS [미로만들기](https://www.acmicpc.net/problem/2665) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_2665.java)
+- 1963 [소수경로](https://www.acmicpc.net/problem/1963) [java](https://github.com/so3500/problem-solving/blob/master/src/boj/Boj_1963.java)
 
 ### Stack, Queue ..
 
@@ -241,10 +242,8 @@ LIS(Longest Increasing Sequence) 최대 부분 증가 수열
 - [같은 탑](https://www.acmicpc.net/problem/1126)
 
 #### 완전 탐색 0
-- [~~집합~~](https://www.acmicpc.net/problem/11723)
 - [다음 순열](https://www.acmicpc.net/problem/10972)
 - [이전 순열](https://www.acmicpc.net/problem/10973)
-- [~~모든 순열~~](https://www.acmicpc.net/problem/10974)
 - [순열의 순서](https://www.acmicpc.net/problem/1722)
 - [~~날짜 계산~~](https://www.acmicpc.net/problem/1476)
 - [리모컨](https://www.acmicpc.net/problem/1107)

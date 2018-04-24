@@ -20,11 +20,12 @@ public class Sort {
 
 		// insertion sort (40000, 0.919)
 		// insertionSort();
-		
+
 		// selection sort (40000, 0.492)
 		// selectionSort();
-		
-		// merge sort
+
+		// merge sort (40000, 0.015)
+		mergeSort(0, 39999);
 
 		// quick sort
 
@@ -36,7 +37,7 @@ public class Sort {
 		System.out.println("time: " + (end - start) / 1000.0);
 		// printArr("bubbleSort.txt");
 		// printArr("selectionSort.txt");
-		printArr("insertionSort.txt");
+		printArr("mergeSort.txt");
 	}
 
 	static void getRandomNumber() throws Exception {
@@ -105,15 +106,73 @@ public class Sort {
 
 	static void insertionSort() {
 		// https://en.wikipedia.org/wiki/Insertion_sort
-		int i, j;
+		int i, j, temp;
 		for (i = 0; i < SIZE; i++) {
+			temp = arr[i];
 			for (j = i; j >= 1; j--) {
 				if (arr[j - 1] > arr[j]) {
-					swap(j - 1, j);
+					arr[j] = arr[j - 1];
 				} else {
 					break;
 				}
 			}
+			arr[j] = temp; // less number of exchanges, shift
+		}
+	}
+
+	static void mergeSort(int left, int right) {
+		int mid;
+
+		// 더 이상 분할할 수 없을 경우 리턴
+		if (left >= right) return;
+
+		mid = (left + right) / 2;
+
+		mergeSort(left, mid);
+		mergeSort(mid + 1, right);
+		merge(left, mid, right);
+	}
+
+	static void merge(int left, int mid, int right) {
+		int i, j, k, m;
+
+		i = left;
+		j = mid + 1;
+		k = 0; // 임시 배열의 인덱스
+
+		int[] tmpArr = new int[right - left + 1];
+
+		// left 부터 mid 까지의 블록과 mid+1 부터 right 까지의 블록을 서로 비교
+		while (i <= mid && j <= right) {
+			if (arr[i] < arr[j]) { // left index 값이 작으면 left index 값을 임시 배열에 복사
+				tmpArr[k] = arr[i];
+				i++;
+			} else { // right index 값이 작으면 right index 값을 임시 배열에 복사
+				tmpArr[k] = arr[j];
+				j++;
+			}
+			k++;
+		}
+
+		// left 블록의 값은 다 정렬했는데 right 블록에 element가 남아있을 경우
+		// right 블록의 남은 element를 순차적으로 임시 배열에 복사
+		if (i > mid) {
+			for (m = j; m <= right; m++) {
+				tmpArr[k] = arr[m];
+				k++;
+			}
+		} else { // left 블록의 element 가 아직 남아있을 경우 남은 element를 순차적으로 임시 배열에 복사
+			for (m = i; m <= mid; m++) {
+				tmpArr[k] = arr[m];
+				k++;
+			}
+		}
+
+		// 임시배열의 값을 배열에 복사
+		k = 0;
+		for (m = left; m <= right; m++) {
+			arr[m] = tmpArr[k];
+			k++;
 		}
 	}
 
