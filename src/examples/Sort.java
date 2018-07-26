@@ -124,7 +124,8 @@ public class Sort {
 		int mid;
 
 		// 더 이상 분할할 수 없을 경우 리턴
-		if (left >= right) return;
+		if (left >= right)
+			return;
 
 		mid = (left + right) / 2;
 
@@ -190,5 +191,34 @@ public class Sort {
 		}
 		output.write(sb.toString().getBytes());
 		output.close();
+	}
+
+	static void quickSort(int first, int last) {
+		if (first < last) {
+			int s = partition(first, last);
+			quickSort(first, s - 1);
+			quickSort(s + 1, last);
+		}
+	}
+
+	static int partition(int first, int last) {
+		int p = first;
+		int i = first;
+		int j = last;
+
+		while (i < j) {
+			while (arr[i] <= arr[p] && i < last) { // left에서 pivot보다 큰 요소 찾을때까지
+				i++;
+			}
+			while (arr[p] < arr[j]) { // right에서 pivot보다 작은 요소찾기
+				j--;
+			}
+			if (i < j) {
+				swap(i, j);
+			}
+		}
+		swap(p, j);
+
+		return j;
 	}
 }
