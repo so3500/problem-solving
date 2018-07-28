@@ -5,7 +5,6 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.util.Arrays;
 import java.util.Random;
-import java.util.regex.Pattern;
 
 public class Sort {
 
@@ -194,21 +193,32 @@ public class Sort {
 		output.close();
 	}
 
-	// 온코더 1문제
-	public String decryptSpell(String str) {
-		StringBuilder builder = new StringBuilder(str);
-		int strLen = builder.length();
-		if (strLen >= 3) {
-			// 문자열에서 3으로 나누어 떨어지는 순서에 있는 문자만 검사한다.
-			for (int idx = 2; idx < strLen; idx += 3) {
-			    // 정규식을 사용하여 조건에 해당하는 문자열을 대무자로 변환한다.
-				if (Pattern.matches("[a-z]", builder.substring(idx, idx + 1))) {
-					builder.replace(idx, idx + 1, builder.substring(idx, idx + 1).toUpperCase());
-				} else {
-					builder.replace(idx, idx + 1, "!");
-				}
+	static void quickSort(int first, int last) {
+		if (first < last) {
+			int s = partition(first, last);
+			quickSort(first, s - 1);
+			quickSort(s + 1, last);
+		}
+	}
+
+	static int partition(int first, int last) {
+		int p = first;
+		int i = first;
+		int j = last;
+
+		while (i < j) {
+			while (arr[i] <= arr[p] && i < last) { // left에서 pivot보다 큰 요소 찾을때까지
+				i++;
+			}
+			while (arr[p] < arr[j]) { // right에서 pivot보다 작은 요소찾기
+				j--;
+			}
+			if (i < j) {
+				swap(i, j);
 			}
 		}
-		return builder.toString();
+		swap(p, j);
+
+		return j;
 	}
 }

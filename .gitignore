@@ -32,3 +32,4 @@ problemSolving.iml
 .settings/
 
 *.txt
+/bin/
