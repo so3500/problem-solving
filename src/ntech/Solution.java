@@ -62,7 +62,9 @@ public class Solution {
 		}
 		// java8 이후로는 LinkedList에서 자체적으로 sort 사용가능. java.util.List 의 method 사용
 		studentList.sort((Student s1, Student s2) -> s2.grade - s1.grade); // 점수기준 내림차순 정렬
-
+//		studentList.sort((s1, s2) -> {
+//			return s2.grade - s1.grade;
+//		});
 		rank = 1;
 		beforeGrade = studentList.get(0).grade;
 		cnt = -1;
