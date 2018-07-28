@@ -1,5 +1,5 @@
 /*
-* 문제: 7562 나이트의 이동 / 80 ms
+* 문제: 7562 나이트의이동 / 80 ms
 * link: https://www.acmicpc.net/problem/11933
 * 알고리즘: BFS
 * 풀이방법:

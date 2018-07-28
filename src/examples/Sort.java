@@ -5,6 +5,7 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.util.Arrays;
 import java.util.Random;
+import java.util.regex.Pattern;
 
 public class Sort {
 
@@ -124,7 +125,8 @@ public class Sort {
 		int mid;
 
 		// 더 이상 분할할 수 없을 경우 리턴
-		if (left >= right) return;
+		if (left >= right)
+			return;
 
 		mid = (left + right) / 2;
 
@@ -190,5 +192,23 @@ public class Sort {
 		}
 		output.write(sb.toString().getBytes());
 		output.close();
+	}
+
+	// 온코더 1문제
+	public String decryptSpell(String str) {
+		StringBuilder builder = new StringBuilder(str);
+		int strLen = builder.length();
+		if (strLen >= 3) {
+			// 문자열에서 3으로 나누어 떨어지는 순서에 있는 문자만 검사한다.
+			for (int idx = 2; idx < strLen; idx += 3) {
+			    // 정규식을 사용하여 조건에 해당하는 문자열을 대무자로 변환한다.
+				if (Pattern.matches("[a-z]", builder.substring(idx, idx + 1))) {
+					builder.replace(idx, idx + 1, builder.substring(idx, idx + 1).toUpperCase());
+				} else {
+					builder.replace(idx, idx + 1, "!");
+				}
+			}
+		}
+		return builder.toString();
 	}
 }
