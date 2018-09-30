@@ -1,4 +1,9 @@
 /*
+* 문제: 1010 다리놓기
+* link: https://bibibim.tistory.com/5
+*/
+
+/*
 * 문제: 1662 압축
 * link: https://www.acmicpc.net/problem/1662
 * 알고리즘: 재귀호출

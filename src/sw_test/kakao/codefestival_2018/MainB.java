@@ -1,8 +1,8 @@
-package sw_test.kakao.codefestival_2018.b;
+package sw_test.kakao.codefestival_2018;
 
 import java.util.Scanner;
 
-public class Main {
+public class MainB {
 
 	static int N, K;
 	static int[] arr, arrSum;

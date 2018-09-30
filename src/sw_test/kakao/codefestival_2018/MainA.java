@@ -1,8 +1,8 @@
-package sw_test.kakao.codefestival_2018.a;
+package sw_test.kakao.codefestival_2018;
 
 import java.util.Scanner;
 
-public class Main {
+public class MainA {
 
 	static int a, b;
 	static int[] first, second;
