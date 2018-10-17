@@ -12,17 +12,12 @@ import java.util.Scanner;
 
 public class SE_5653 {
 
-	public enum State {
-		DEACTIVATED, ACTIVATED, DEAD;
-	}
-
 	static class Node {
 		int row;
 		int col;
 		int life;
 		int createdTime;
 		int activeTime;
-		State state;
 
 		public Node(int row, int col, int life) {
 			this.row = row;
