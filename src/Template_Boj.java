@@ -3,6 +3,14 @@
 * link: https://www.acmicpc.net/problem/11933
 * 알고리즘: BFS
 * 풀이방법:
+*
+* */
+
+/*
+* 문제: 7562 나이트의이동 / 80 ms
+* link: https://www.acmicpc.net/problem/11933
+* 알고리즘: BFS
+* 풀이방법:
 *   큐에 시작 점 객체 (row, col, cnt:1) 추가
 *   bfs 함수에서 큐에 하나도 남지 않을 때 까지 '시작 점에서 갈 수 있는 점' 추가
 *       '시작 점에서 갈 수 있는 점'의 조건: 배열 범위 내, 이미 지나가지 않은 점
