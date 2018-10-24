@@ -1,5 +1,4 @@
 /*
-<<<<<<< HEAD
 * 문제: 43165 타켓넘버
 * problem-link: https://programmers.co.kr/learn/courses/30/lessons/43104
 * solution-link: https://bibibim.tistory.com/5
@@ -12,7 +11,6 @@
 /*
 * 문제: 1010 다리놓기
 * link: https://bibibim.tistory.com/5
->>>>>>> branch 'master' of https://github.com/so3500/problem-solving
 */
 
 /*
