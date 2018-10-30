@@ -1,5 +1,5 @@
 /*
-* 문제: 1918 후위표기
+* 문제: 1918 후위표기식 
 * problem-link: https://www.acmicpc.net/problem/1918
 * solution-link: https://bibibim.tistory.com/10
 */
