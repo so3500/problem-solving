@@ -3,11 +3,11 @@ problem solving with JAVA, Python etc.
 
 [acmicpc.net](https://www.acmicpc.net/problem/)   /  [so3500](https://www.acmicpc.net/user/so3500)
 
-[codeground](https://www.codeground.org/)
+[main.java.competition.codeground](https://www.codeground.org/)
 
 [SW expert Academy](https://www.swexpertacademy.com/main/main.do)  /  so3500
 
-[programmers](https://programmers.co.kr/)
+[main.java.programmers](https://programmers.co.kr/)
 
 
 
