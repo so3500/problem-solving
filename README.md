@@ -1,13 +1,15 @@
 # problem-solving
 problem solving with JAVA, Kotlin, Python, etc.
 
+[leetcode](https://leetcode.com) / [dltjddhs](https://leetcode.com/dltjddhs)
+
 [acmicpc.net](https://www.acmicpc.net/problem/)   /  [so3500](https://www.acmicpc.net/user/so3500)
 
-[main.java.competition.codeground](https://www.codeground.org/)
+[codeground](https://www.codeground.org/)
 
 [SW expert Academy](https://www.swexpertacademy.com/main/main.do)  /  so3500
 
-[main.java.programmers](https://programmers.co.kr/)
+[programmers](https://programmers.co.kr/)
 
 
 
