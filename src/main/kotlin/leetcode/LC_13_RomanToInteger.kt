@@ -13,12 +13,7 @@ class LC_13_RomanToInteger {
     )
 
     fun romanToInt(s: String): Int {
-        var left: Char = s[0]
-
-        if (s.length == 1) {
-            return romanMap.getValue(left)
-        }
-
+        var left = s[0]
         var sum = 0
         var idx = 1
 
