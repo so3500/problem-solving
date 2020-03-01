@@ -1,5 +1,5 @@
 # problem-solving
-problem solving with JAVA, Python etc.
+problem solving with JAVA, Kotlin, Python, etc.
 
 [acmicpc.net](https://www.acmicpc.net/problem/)   /  [so3500](https://www.acmicpc.net/user/so3500)
 
