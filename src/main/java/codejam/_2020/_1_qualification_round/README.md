@@ -61,9 +61,9 @@ In Sample Case #2, all rows and columns have repeated elements. Notice that each
 In Sample Case #3, the leftmost and rightmost columns have repeated elements.
 
 ---
-##Nesting Depth (5pts, 11pts)
+## Nesting Depth (5pts, 11pts)
 
-###Problem
+### Problem
 tl;dr: Given a string of digits S, insert a minimum number of opening and closing parentheses into it such that the resulting string is balanced and each digit d is inside exactly d pairs of matching parentheses.
 
 Let the nesting of two parentheses within a string be the substring that occurs strictly between them. An opening parenthesis and a closing parenthesis that is further to its right are said to match if their nesting is empty, or if every parenthesis in their nesting matches with another parenthesis in their nesting. The nesting depth of a position p is the number of pairs of matching parentheses m such that p is included in the nesting of m.
@@ -76,13 +76,13 @@ removing any and all parentheses from S' results in S,
 each digit in S' is equal to its nesting depth, and
 S' is of minimum length.
 
-###Input
+### Input
 The first line of the input gives the number of test cases, T. T lines follow. Each line represents a test case and contains only the string S.
 
-###Output
+### Output
 For each test case, output one line containing Case #x: y, where x is the test case number (starting from 1) and y is the string S' defined above.
 
-###Limits
+### Limits
 Time limit: 20 seconds per test set.
 Memory limit: 1GB.
 1 ≤ T ≤ 100.
@@ -94,9 +94,9 @@ Each character in S is either 0 or 1.
 Test set 2 (Visible Verdict)
 Each character in S is a decimal digit between 0 and 9, inclusive.
 
-###Sample
+### Sample
 
-####Input
+#### Input
 ```
 4
 0000
@@ -105,7 +105,7 @@ Each character in S is a decimal digit between 0 and 9, inclusive.
 1
 
 ```
-####Output
+#### Output
 ```
 Case #1: 0000
 Case #2: (1)0(1)
@@ -152,7 +152,7 @@ Memory limit: 1GB.
 
 ### Sample
 
-####Input
+#### Input
 ```
 4
 3
@@ -173,7 +173,7 @@ Memory limit: 1GB.
 0 720
 720 1440
 ```
-####Output
+#### Output
 ```
 Case #1: CJC
 Case #2: IMPOSSIBLE
@@ -191,7 +191,7 @@ In Sample Case #4, any schedule would be valid. Specifically, it is OK for one p
 
 ---
 
-##ESAb ATAd (1pts, 9pts, 16pts)
+## ESAb ATAd (1pts, 9pts, 16pts)
 ### Problem
 Last year, a research consortium [had some trouble](https://codingcompetitions.withgoogle.com/codejam/round/0000000000051705/00000000000881de) with a distributed database system that sometimes lost pieces of the data. You do not need to read or understand that problem in order to solve this one!
 
@@ -205,7 +205,7 @@ Unfortunately, this ultra-modern machine is subject to random quantum fluctuatio
 25% of the time, nothing happens to the array.
 Moreover, there is no indication of what effect the quantum fluctuation has had each time. The consortium is now concerned, and it has hired you to get its precious data back, in whatever form it is in! Can you find the entire array, such that your answer is accurate as of the time that you give it? Answering does not count as a query, so if you answer after your 30th query, for example, the array will be the same as it was after your 21st through 30th queries.
 
-###Input and output
+### Input and output
 This is an interactive problem. You should make sure you have read the information in the [Interactive Problems section](https://codingcompetitions.withgoogle.com/codejam/faq#interactive-problems) of our FAQ.
 
 Initially, your program should read a single line containing two integers T and B: the number of test cases and the number of bits in the array, respectively. Note that B is the same for every test case.
@@ -221,7 +221,7 @@ Your program outputs one line containing a string of B characters, each of which
 The judge responds with one line containing a single letter: uppercase Y if your answer was correct, and uppercase N if it was not (or you provided a malformed line). If you receive Y, you should begin the next test case, or stop sending input if there are no more test cases.
 After the judge sends N to your input stream, it will not send any other output. If your program continues to wait for the judge after receiving N, your program will time out, resulting in a Time Limit Exceeded error. Notice that it is your responsibility to have your program exit in time to receive a Wrong Answer judgment instead of a Time Limit Exceeded error. As usual, if the memory limit is exceeded, or your program gets a runtime error, you will receive the appropriate judgment.
 
-###Limits
+### Limits
 Time limit: 40 seconds per test set.
 Memory limit: 1GB.
 1 ≤ T ≤ 100.
@@ -235,7 +235,7 @@ B = 20.
 Test set 3 (Hidden Verdict)
 B = 100.
 
-###Testing Tool
+### Testing Tool
 You can use this testing tool to test locally or on our servers. To test locally, you will need to run the tool in parallel with your code; you can use our [interactive runner](https://storage.googleapis.com/coding-competitions.appspot.com/interactive_runner.py) for that. The interactive runner was changed after the 2019 contest. Be sure to download the latest version. For more information, read the [Interactive Problems](https://codingcompetitions.withgoogle.com/codejam/faq#interactive-problems) section of the FAQ.
 
 ###Local Testing Tool
@@ -245,7 +245,7 @@ If your code passes the testing tool but fails the real judge, please check the 
 
 [Download local testing tool](https://codejam.googleapis.com/dashboard/get_file/AQj_6U1J1sPo9tw7JNMSbL8jn9SsS8lo9hUHLBYDH5mNVmgKaV6DJ_zLrVjy9INDjJAIdyRo8tA7aA/local_testing_tool.py)
 
-###Sample Interaction
+### Sample Interaction
 The following interaction corresponds to Test Set 1.
 ```
 t, b = readline_int_list()      // reads 100 into t and 10 into b.
@@ -282,8 +282,8 @@ exit                    // exits to avoid an ambiguous TLE error
 ```
 
 ---
-##Indicium (7pts, 25pts)
-###Problem
+## Indicium (7pts, 25pts)
+### Problem
 Indicium means "trace" in Latin. In this problem we work with Latin squares and matrix traces.
 
 A Latin square is an N-by-N square matrix in which each cell contains one of N different values, such that no value is repeated within a row or a column. In this problem, we will deal only with "natural Latin squares" in which the N values are the integers between 1 and N.
@@ -299,13 +299,13 @@ Given values N and K, produce any N-by-N "natural Latin square" with trace K, or
 ```
 
 
-###Input
+### Input
 The first line of the input gives the number of test cases, T. T test cases follow. Each consists of one line containing two integers N and K: the desired size of the matrix and the desired trace.
 
-###Output
+### Output
 For each test case, output one line containing Case #x: y, where x is the test case number (starting from 1) and y is IMPOSSIBLE if there is no answer for the given parameters or POSSIBLE otherwise. In the latter case, output N more lines of N integers each, representing a valid "natural Latin square" with a trace of K, as described above.
 
-###Limits
+### Limits
 Time limit: 20 seconds per test set.
 Memory limit: 1GB.
 N ≤ K ≤ N2.
@@ -318,16 +318,16 @@ Test set 2 (Hidden Verdict)
 1 ≤ T ≤ 100.
 2 ≤ N ≤ 50.
 
-###Sample
+### Sample
 
-####Input
+#### Input
 ```
 2
 3 6
 2 3
 ```
 
-####Output
+#### Output
 ```
 Case #1: POSSIBLE
 2 1 3
