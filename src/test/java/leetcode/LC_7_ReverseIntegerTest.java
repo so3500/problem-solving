@@ -1,9 +1,9 @@
 package leetcode;
 
+import static org.assertj.core.api.Assertions.*;
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
-import static org.assertj.core.api.Assertions.assertThat;
 
 class LC_7_ReverseIntegerTest {
 
@@ -24,10 +24,10 @@ class LC_7_ReverseIntegerTest {
         assertThat(lc7.reverse(1)).isEqualTo(1);
         assertThat(lc7.reverse(-1)).isEqualTo(-1);
 
-        assertThat(lc7.reverse(0)).isEqualTo(0);
-        assertThat(lc7.reverse(Integer.MIN_VALUE)).isEqualTo(0);
-        assertThat(lc7.reverse(Integer.MAX_VALUE)).isEqualTo(0);
-        assertThat(lc7.reverse(1234789999)).isEqualTo(0);
-        assertThat(lc7.reverse(-1234789999)).isEqualTo(0);
+        assertThat(lc7.reverse(0)).isZero();
+        assertThat(lc7.reverse(Integer.MIN_VALUE)).isZero();
+        assertThat(lc7.reverse(Integer.MAX_VALUE)).isZero();
+        assertThat(lc7.reverse(1234789999)).isZero();
+        assertThat(lc7.reverse(-1234789999)).isZero();
     }
 }
