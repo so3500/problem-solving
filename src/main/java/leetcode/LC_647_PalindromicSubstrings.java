@@ -6,12 +6,39 @@ package leetcode;
 public class LC_647_PalindromicSubstrings {
 
 	public int countSubstrings(String s) {
-		return countSubstringsWithArray(s);
+		return countSubstringWithExtend(s);
+		//		return countSubstringsWithArray(s);
 	}
 
+	/**
+	 * Runtime: 4 ms, faster than 59.16% of Java online submissions for Palindromic Substrings.
+	 * Memory Usage: 38.6 MB, less than 52.65% of Java online submissions for Palindromic Substrings.
+	 */
 	private int countSubstringWithExtend(String s) {
-		// TODO
-		return 0;
+		int palindromCnt = 0;
+
+		for (int startIndex = 0; startIndex < s.length(); startIndex++) {
+			palindromCnt += findAndReturnPalindromCnt(startIndex, startIndex, s);
+			palindromCnt += findAndReturnPalindromCnt(startIndex, startIndex + 1, s);
+		}
+
+		return palindromCnt;
+	}
+
+	private int findAndReturnPalindromCnt(int startIndex, int endIndex, String s) {
+		int palindromCnt = 0;
+
+		while (startIndex >= 0 && endIndex < s.length()) {
+			if (s.charAt(startIndex) != s.charAt(endIndex)) {
+				break;
+			}
+			palindromCnt++;
+
+			startIndex--;
+			endIndex++;
+		}
+
+		return palindromCnt;
 	}
 
 	/**
