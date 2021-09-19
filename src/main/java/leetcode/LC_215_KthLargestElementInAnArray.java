@@ -52,46 +52,43 @@ public class LC_215_KthLargestElementInAnArray {
 	}
 
 	/*
-		// Divides array into two partitions
-		algorithm partition(A, lo, hi) is
-		  pivot := A[hi] // The pivot must be the last element
+	// Divides array into two partitions
+	algorithm partition(A, lo, hi) is
+	  pivot := A[hi] // The pivot must be the last element
 
-		  // Pivot index
-		  i := lo - 1
+	  // Pivot index
+	  i := lo - 1
 
-		  for j := lo to hi do
-			// If the current element is less than or equal to the pivot
-			if A[j] <= pivot then
-			  // Move the pivot index forward
-			  i := i + 1
+	  for j := lo to hi do
+		// If the current element is less than or equal to the pivot
+		if A[j] <= pivot then
+		  // Move the pivot index forward
+		  i := i + 1
 
-			  // Swap the current element with the element at the pivot
-			  swap A[i] with A[j]
-		  return i // the pivot index
+		  // Swap the current element with the element at the pivot
+		  swap A[i] with A[j]
+	  return i // the pivot index
 
-		pivot: 7
+	i: -1, j: 0
+	1 10 1 6 3 8 7
 
-		i: -1, j: 0
-		1 10 1 6 3 8 7
+	i: 0,  j:1
+	1 10 1 6 3 8 7
 
-		i: 0,  j:1
-		1 10 1 6 3 8 7
+	swap
+	1 10 6 3 8 7
 
-		swap
-		1 10 6 3 8 7
+	i: 1, j: 2
+	swap
+	1 6 10 3 8 7
 
-		i: 1, j: 2
-		swap
-		1 6 10 3 8 7
+	iL 2, j: 3
+	swap
+	1 6 3 10 8 7
 
-		iL 2, j: 3
-		swap
-		1 6 3 10 8 7
-
-		i: 2, j: 4
-		i: 3, j: 5
-		swap
-		1 6 3 7 8 10
-		 */
-
+	i: 2, j: 4
+	i: 3, j: 5
+	swap
+	1 6 3 7 8 10
+	 */
 }
