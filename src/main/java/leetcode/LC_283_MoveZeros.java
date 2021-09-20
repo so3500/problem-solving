@@ -10,7 +10,15 @@ public class LC_283_MoveZeros {
 	}
 
 	/**
-	 * Time complexity: O(N)
+	 * Time complexity: O(N) 최악의 경우에도 N번 연산
+	 * Space complexity: O(1) in-place
+	 */
+	public void moveZeros3(int[] nums) {
+		// TODO
+	}
+
+	/**
+	 * Time complexity: O(N) 단. 최악의 경우 2N [0, 0, 0, 0, ..., 0]
 	 * Space complexity: O(1) in-place
 	 */
 	public void moveZeroes1(int[] nums) {
