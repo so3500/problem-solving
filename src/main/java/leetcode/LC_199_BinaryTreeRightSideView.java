@@ -3,6 +3,9 @@ package leetcode;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * https://leetcode.com/problems/binary-tree-right-side-view/
+ */
 public class LC_199_BinaryTreeRightSideView {
 	public List<Integer> rightSideView(TreeNode root) {
 		List<Integer> result = new ArrayList<>();

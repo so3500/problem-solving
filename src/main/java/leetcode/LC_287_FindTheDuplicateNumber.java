@@ -1,5 +1,8 @@
 package leetcode;
 
+/**
+ * https://leetcode.com/problems/find-the-duplicate-number/
+ */
 public class LC_287_FindTheDuplicateNumber {
 	public int findDuplicate(int[] nums) {
 		while (nums[0] != nums[nums[0]]) {
