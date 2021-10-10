@@ -26,8 +26,8 @@ public class LC_64_MinimumPathSum {
 			return grid[0][0];
 		}
 
-		int minPathSumFromUp = row > 0 ? grid[row - 1][col] : grid[0][col - 1];
-		int minPathSumFromLeft = col > 0 ? grid[row][col - 1] : grid[row - 1][0];
+		int minPathSumFromUp = row > 0 ? grid[row - 1][col] : Integer.MAX_VALUE;
+		int minPathSumFromLeft = col > 0 ? grid[row][col - 1] : Integer.MAX_VALUE;
 
 		return grid[row][col] + Integer.min(minPathSumFromUp, minPathSumFromLeft);
 	}
