@@ -1,6 +1,8 @@
 package leetcode;
 
 /**
+ * https://leetcode.com/problems/minimum-path-sum/
+ *
  * related topic: Dynamic Programming
  * Time Complexity: O(MN)
  * Space Complexity: O(1)
@@ -20,18 +22,13 @@ public class LC_64_MinimumPathSum {
 	}
 
 	private int getMinimumPathSum(int[][] grid, int row, int col) {
-		int minPathSum = grid[row][col];
-
 		if (row == 0 && col == 0) {
-			// nothing
-		} else if (row == 0) {
-			minPathSum += grid[0][col - 1];
-		} else if (col == 0) {
-			minPathSum += grid[row - 1][0];
-		} else {
-			minPathSum += Integer.min(grid[row - 1][col], grid[row][col - 1]);
+			return grid[0][0];
 		}
 
-		return minPathSum;
+		int minPathSumFromUp = row > 0 ? grid[row - 1][col] : grid[0][col - 1];
+		int minPathSumFromLeft = col > 0 ? grid[row][col - 1] : grid[row - 1][0];
+
+		return grid[row][col] + Integer.min(minPathSumFromUp, minPathSumFromLeft);
 	}
 }
