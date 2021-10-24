@@ -26,6 +26,7 @@ public class LC_105_ConstructBinaryTreeFromPreorderAndInorderTraversal {
 
 		int inorderIndex = findIndexOfInorder(preorderIndex++);
 
+		// preorder 의 첫번째 값은 inorder 의 parent node 를 의미한다.
 		TreeNode node = new TreeNode(inorder[inorderIndex]);
 		node.left = buildTree(start, inorderIndex - 1);
 		node.right = buildTree(inorderIndex + 1, end);
