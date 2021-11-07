@@ -8,11 +8,11 @@ import java.util.PriorityQueue;
 import java.util.Queue;
 
 /**
- * related topic:
+ * related topic: Array, HashTable, Greedy, Sorting, Heap(Priority Queue), Counting
  * Time Complexity:
  * Space Complexity:
  *
- * TODO runtime :617ms -> 100ms 미만으로 줄이기
+ * TODO runtime :617ms -> 100ms 미만으로 줄이기 (Greedy)
  *
  * https://leetcode.com/problems/task-scheduler/
  */
