@@ -9,11 +9,9 @@ import java.util.Queue;
  * Space Complexity: O(NM)
  */
 public class LC_200_NumberOfIslands {
-	private boolean[][] traveled;
 	private final int[][] directions = {{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
 
 	public int numIslands(char[][] grid) {
-		init(grid);
 		return countIslands(grid);
 	}
 
@@ -24,7 +22,7 @@ public class LC_200_NumberOfIslands {
 		for (int i = 0; i < grid.length; i++) {
 			for (int j = 0; j < grid[i].length; j++) {
 				if (enableTraveling(grid, i, j)) {
-					addTravelArea(i, j, queue);
+					travelAreaAndMark(grid, i, j, queue);
 					travel(grid, queue);
 					count++;
 				}
@@ -43,28 +41,21 @@ public class LC_200_NumberOfIslands {
 				int nextCol = area.col + direction[1];
 
 				if (enableTraveling(grid, nextRow, nextCol)) {
-					addTravelArea(nextRow, nextCol, queue);
+					travelAreaAndMark(grid, nextRow, nextCol, queue);
 				}
 			}
 		}
 	}
 
-	private void addTravelArea(int i, int j, Queue<Area> queue) {
+	private static void travelAreaAndMark(char[][] grid, int i, int j, Queue<Area> queue) {
 		queue.add(new Area(i, j));
-		traveled[i][j] = true;
+		grid[i][j] = 'x';
 	}
 
-	private boolean enableTraveling(char[][] grid, int i, int j) {
+	private static boolean enableTraveling(char[][] grid, int i, int j) {
 		return i >= 0 && i < grid.length
 			&& j >= 0 && j < grid[i].length
-			&& grid[i][j] == '1'
-			&& !traveled[i][j];
-	}
-
-	private void init(char[][] grid) {
-		int m = grid.length;
-		int n = grid[0].length;
-		traveled = new boolean[m][n];
+			&& grid[i][j] == '1';
 	}
 
 	private static final class Area {
