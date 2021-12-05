@@ -3,24 +3,14 @@ package leetcode;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import java.util.Map;
 
 /**
- * related topic:
- * Time Complexity: O(N)
+ * related topic: Hash Table, String, Backtracking
+ * Time Complexity: O(N * 4^N) TODO
  * Space Complexity: O(1)
  */
 public class LC_17_LetterCombinationsOfaPhoneNumber {
-	Map<Character, List<Character>> mapping = Map.of(
-		'2', List.of('a', 'b', 'c'),
-		'3', List.of('d', 'e', 'f'),
-		'4', List.of('g', 'h', 'i'),
-		'5', List.of('j', 'k', 'l'),
-		'6', List.of('m', 'n', 'o'),
-		'7', List.of('p', 'q', 'r', 's'),
-		'8', List.of('t', 'u', 'v'),
-		'9', List.of('w', 'x', 'y', 'z')
-	);
+	String[] mapping = {"0", "1", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
 
 	public List<String> letterCombinations(String digits) {
 		if (digits.isEmpty()) {
@@ -38,8 +28,9 @@ public class LC_17_LetterCombinationsOfaPhoneNumber {
 			return;
 		}
 
-		List<Character> mappingLetters = mapping.get(digits.charAt(index));
-		for (char mappingLetter : mappingLetters) {
+		String mappingLetters = mapping[digits.charAt(index) - '0'];
+		for (int i = 0; i < mappingLetters.length(); i++) {
+			char mappingLetter = mappingLetters.charAt(i);
 			letterCombinations(digits, index + 1, answers, answer + mappingLetter);
 		}
 	}
