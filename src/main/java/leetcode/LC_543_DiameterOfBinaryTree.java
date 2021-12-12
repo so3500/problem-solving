@@ -1,6 +1,8 @@
 package leetcode;
 
 /**
+ * TODO: simplify code
+ *
  * https://leetcode.com/problems/diameter-of-binary-tree/
  *
  * related topic: Tree, Binary Tree, Depth-First Search
