@@ -1,7 +1,7 @@
 package leetcode;
 
 /**
- * related topic: Array, Dynamic Programming
+ * related topic: Array, Dynamic Programming, Divide and Conquer
  * Time Complexity: O(N)
  * Space Complexity: O(1)
  */
@@ -21,4 +21,6 @@ public class LC_53_MaximumSubarray {
 
 		return maxSum;
 	}
+
+	// todo Divide and Conquer
 }
