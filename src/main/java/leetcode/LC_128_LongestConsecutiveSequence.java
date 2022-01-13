@@ -1,7 +1,8 @@
 package leetcode;
 
-import java.util.HashSet;
+import java.util.Arrays;
 import java.util.Set;
+import java.util.stream.Collectors;
 
 /**
  * https://leetcode.com/problems/longest-consecutive-sequence/
@@ -12,47 +13,35 @@ import java.util.Set;
  */
 public class LC_128_LongestConsecutiveSequence {
 	public int longestConsecutive(int[] nums) {
-		Set<Integer> set = new HashSet<>(nums.length);
-		for (int num : nums) {
-			set.add(num);
-		}
+		Set<Integer> set = initSet(nums);
 
 		int maxLength = 0;
 		for (int num : nums) {
-			int length = 0;
-			if (set.contains(num)) {
-				length++;
-				length += findLeft(set, num - 1);
-				length += findRight(set, num + 1);
+			// 각 consecutive sequence 중 가장 작은 수에서 시작하도록 보장
+			if (set.contains(num - 1)) {
+				continue;
 			}
-			maxLength = Integer.max(maxLength, length);
-			set.remove(num);
+
+			if (set.contains(num)) {
+				int nextNum = num + 1;
+				int length = 1;
+
+				while (set.contains(nextNum)) {
+					set.remove(nextNum); // optimization (한번 탐색한 수는 더 이상 필요없음)
+
+					nextNum++;
+					length++;
+				}
+
+				maxLength = Integer.max(maxLength, length);
+				set.remove(num); // optimization (한번 탐색한 수는 더 이상 필요없음)
+			}
 		}
 
 		return maxLength;
 	}
 
-	private int findRight(Set<Integer> set, int i) {
-		int ret = 0;
-
-		if (set.contains(i)) {
-			ret = 1;
-			ret += findRight(set, i + 1);
-		}
-		set.remove(i);
-
-		return ret;
-	}
-
-	private int findLeft(Set<Integer> set, int i) {
-		int ret = 0;
-
-		if (set.contains(i)) {
-			ret = 1;
-			ret += findLeft(set, i - 1);
-		}
-		set.remove(i);
-
-		return ret;
+	private Set<Integer> initSet(int[] nums) {
+		return Arrays.stream(nums).boxed().collect(Collectors.toSet());
 	}
 }
