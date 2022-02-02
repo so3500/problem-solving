@@ -3,19 +3,79 @@ package leetcode;
 /**
  * https://leetcode.com/problems/search-in-rotated-sorted-array/
  *
- * related topic: Array, Binaray Search
- * Time Complexity: O(N) =>
+ * related topic: Array, Binary Search
+ * Time Complexity: O(logN)
  * Space Complexity: O(1)
  *
- * 접근방법1. circular array 를 고려하여 index 계산. 탈출조건 복잡 (fail)
- * 접근방법2. circular array 가 아닌 가상의 0부터 시작하는 array 로 생각. 실제 값 비교시에만 보정된 인덱스 사용 (pass) - TODO 보정수 찾는 과정이 O(N). O(logN) 방법 찾기
  */
 public class LC_33_SearchInRotatedSortedArray {
 	public int search(int[] nums, int target) {
 		return findTarget(nums, target);
 	}
 
+	/**
+	 * circular array 를 고려하여 search
+	 *
+	 * Time Complexity: O(logN)
+	 * Space Complexity: O(1)
+	 *
+	 * https://leetcode.com/submissions/detail/632793419/
+	 *
+	 * target: 9
+	 * 0 1 2 3 4 5 6 7 8 9
+	 * 6 7 8 9 0 1 2 3 4 5
+	 * l       m         r
+	 * l  m  r
+	 *
+	 * target: 3
+	 * 0 1 2 3 4 5 6 7 8 9
+	 * 6 7 8 9 0 1 2 3 4 5
+	 * l       m         r
+	 *           l   m   r
+	 */
 	private int findTarget(int[] nums, int target) {
+		int left = 0;
+		int right = nums.length - 1;
+
+		int targetIndex = -1;
+		while (left <= right) {
+			int mid = (left + right) / 2;
+
+			if (nums[mid] == target) {
+				targetIndex = mid;
+				break;
+			}
+
+			if (isSorted(nums, left, mid)) {
+				if (nums[left] <= target && target <= nums[mid]) {
+					right = mid - 1;
+				} else {
+					left = mid + 1;
+				}
+			} else {
+				if (nums[left] > target && nums[mid] < target) {
+					left = mid + 1;
+				} else {
+					right = mid - 1;
+				}
+			}
+
+		}
+
+		return targetIndex;
+	}
+
+	private boolean isSorted(int[] nums, int i, int j) {
+		return nums[i] <= nums[j];
+	}
+
+	/**
+	 * circular array 가 아닌 가상의 0부터 시작하는 array 로 생각. 실제 값 비교시에만 보정된 인덱스 사용 (pass) - 보정수 찾는 과정이 O(N)
+	 *
+	 * Time Complexity: O(N)
+	 * Space Complexity: O(1)
+	 */
+	private int findTarget2(int[] nums, int target) {
 		int start = 0;
 		int end = nums.length - 1;
 		int cNum = findCalibratedNum(nums);
