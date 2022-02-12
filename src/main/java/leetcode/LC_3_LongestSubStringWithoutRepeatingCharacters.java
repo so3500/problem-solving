@@ -6,7 +6,7 @@ import java.util.Map;
 /**
  * related topic: Hash Table, String, Sliding Window
  * Time Complexity: O(N)
- * Space Complexity: O(1)
+ * Space Complexity: O(N)
  */
 public class LC_3_LongestSubStringWithoutRepeatingCharacters {
 	public int lengthOfLongestSubstring(String s) {
