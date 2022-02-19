@@ -8,61 +8,31 @@ package leetcode;
 public class LC_2_AddTwoNumbers {
 	public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 		ListNode head = new ListNode();
-		ListNode node = head;
+		ListNode current = head;
+		ListNode p1 = l1;
+		ListNode p2 = l2;
 
-		int nextNum = 0;
-		while (l1 != null && l2 != null) {
-			node.next = new ListNode();
-			node = node.next;
+		int carry = 0; // 올림
+		while (p1 != null || p2 != null) {
+			current.next = new ListNode();
+			current = current.next;
 
-			int sum = l1.val + l2.val + nextNum;
-			if (sum < 10) {
-				node.val = sum;
-				nextNum = 0;
-			} else {
-				node.val = sum % 10;
-				nextNum = 1;
-			}
+			int sum = carry;
+			sum += p1 != null ? p1.val : 0;
+			sum += p2 != null ? p2.val : 0;
 
-			l1 = l1.next;
-			l2 = l2.next;
+			current.val = sum % 10;
+			carry = sum / 10;
+
+			p1 = p1 != null ? p1.next : null;
+			p2 = p2 != null ? p2.next : null;
 		}
 
-		if (l1 != null) {
-			addTwo(node, l1, nextNum);
-		} else {
-			addTwo(node, l2, nextNum);
+		// 올림수가 있을 때
+		if (carry == 1) {
+			current.next = new ListNode(1);
 		}
 
 		return head.next;
-	}
-
-	private void addTwo(ListNode node, ListNode l, int nextNum) {
-
-		while (l != null && nextNum == 1) {
-			node.next = new ListNode();
-			node = node.next;
-
-			int sum = l.val + nextNum;
-
-			if (sum < 10) {
-				node.val = sum;
-				nextNum = 0;
-			} else {
-				node.val = sum % 10;
-				nextNum = 1;
-			}
-
-			l = l.next;
-		}
-
-		// 나머지 이어붙이기
-		if (l != null) {
-			node.next = l;
-		}
-
-		if (nextNum == 1) {
-			node.next = new ListNode(1);
-		}
 	}
 }
