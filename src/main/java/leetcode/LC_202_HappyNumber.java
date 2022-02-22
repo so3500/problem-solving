@@ -16,28 +16,21 @@ public class LC_202_HappyNumber {
 
 	public boolean isHappy(int n) {
 		Set<Integer> set = new HashSet<>();
-		int sum = n;
-		boolean isHappyNumber = false;
 
-		while (!set.contains(sum)) {
-			set.add(sum);
-			sum = calculateNuxtSum(sum);
-
-			if (sum == 1) {
-				isHappyNumber = true;
-				break;
-			}
+		while (!set.contains(n) && n != 1) {
+			set.add(n);
+			n = calculateNuxtSum(n);
 		}
 
-		return isHappyNumber;
+		return n == 1;
 	}
 
-	private int calculateNuxtSum(int sum) {
+	private int calculateNuxtSum(int n) {
 		int ret = 0;
 
-		while (sum > 0) {
-			ret += (int)Math.pow(sum % 10, 2);
-			sum /= 10;
+		while (n > 0) {
+			ret += (int)Math.pow(n % 10, 2);
+			n /= 10;
 		}
 
 		return ret;
