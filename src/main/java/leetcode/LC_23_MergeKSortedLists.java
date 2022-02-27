@@ -4,6 +4,7 @@ import java.util.PriorityQueue;
 import java.util.Queue;
 
 /**
+ * https://leetcode.com/problems/merge-k-sorted-lists/
  * related topic: Linked List, Heap(Priority Queue), Merge Sort, Divide and Conquer
  */
 public class LC_23_MergeKSortedLists {
