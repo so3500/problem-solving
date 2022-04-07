@@ -6,10 +6,12 @@ import java.util.List;
 import java.util.Queue;
 
 /**
+ * https://leetcode.com/problems/course-schedule/
+ *
  * V(vertex, node) : numCourses
  * E(edge, link) : prerequisites
  *
- * related topic:
+ * related topic: Depth-First Search, Breadth-First Search, Graph, Topological Sort
  * Time Complexity: O(V+E) : init V+E, bfs V+E
  * Space Complexity: O(V+E)
  */
