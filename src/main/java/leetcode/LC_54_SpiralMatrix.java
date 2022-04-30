@@ -40,10 +40,9 @@ public class LC_54_SpiralMatrix {
 		visit(matrix, nextRow, nextCol, direction);
 
 		// If you can't go, move according to the priority
-		visit(matrix, r, c + 1, Direction.RIGHT);
-		visit(matrix, r + 1, c, Direction.DOWN);
-		visit(matrix, r, c - 1, Direction.LEFT);
-		visit(matrix, r - 1, c, Direction.UP);
+		for (Direction dir : Direction.values()) {
+			visit(matrix, r + dir.getNextRow(), c + dir.getNextCol(), dir);
+		}
 	}
 
 	private boolean visitable(int[][] matrix, int r, int c) {
