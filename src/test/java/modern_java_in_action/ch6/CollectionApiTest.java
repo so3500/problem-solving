@@ -1,4 +1,4 @@
-package modernjava;
+package modern_java_in_action.ch6;
 
 import java.util.ArrayList;
 import java.util.HashMap;
